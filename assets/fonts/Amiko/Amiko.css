@@ -3,11 +3,18 @@
   src: url("assets/fonts/Amiko/Amiko-Regular.ttf");
   font-face-name: "Amiko";
   font-family: "Amiko";
-  font-weight: normal;
+  font-weight: 100;
 }
 
 @font-face {
   src: url("assets/fonts/Amiko/Amiko-SemiBold.ttf");
+  font-face-name: "Amiko";
+  font-family: "Amiko";
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("assets/fonts/Amiko/Amiko-Bold.ttf");
   font-face-name: "Amiko";
   font-family: "Amiko";
   font-weight: bold;

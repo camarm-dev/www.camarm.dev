@@ -1,7 +1,5 @@
 const observerOptions = {
-  root: document.body,
-  rootMargin: "0px",
-  threshold: 1.0,
+  root: document.body
 }
 const navbar = document.querySelector('.nav')
 const firstSection = document.querySelector('.landing')
@@ -19,16 +17,19 @@ function handleIntersectionObserver(entries, observer) {
     console.log(entry)
     if (entry.isIntersecting && entry.target.textContent === navbar.textContent) {
       removeState(navbar, 'active')
-    } else if (!entry.isIntersecting) {
+    }
+    if (!entry.isIntersecting) {
       addState(navbar, 'active')
     }
   })
 }
 
 function startIntersectionObserver() {
-  const observer = new IntersectionObserver(handleIntersectionObserver, observerOptions)
+  let observer = new IntersectionObserver(handleIntersectionObserver, observerOptions)
   observer.observe(firstSection)
-  return observer
 }
 
 startIntersectionObserver()
+firstSection.scrollIntoView({ behavior: "smooth" })
+addState(navbar, 'intro')
+setTimeout(() => { removeState(navbar, 'intro') }, 7000)

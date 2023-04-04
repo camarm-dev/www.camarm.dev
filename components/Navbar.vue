@@ -1,4 +1,3 @@
-<!-- Please remove this file from your project -->
 <template>
   <div class="nav">
     <div class="item logo">
@@ -8,13 +7,19 @@
     </div>
     <div class="items-stacked">
       <div class="item">
-        <a href="/">About</a>
+        <NuxtLink to="/">
+          About
+        </NuxtLink>
       </div>
       <div class="item">
-        <a href="/work">Work</a>
+        <NuxtLink to="/work">
+          Work
+        </NuxtLink>
       </div>
       <div class="item">
-        <a href="/blog">Blog</a>
+        <NuxtLink to="/blog">
+          Blog
+        </NuxtLink>
       </div>
       <div class="item">
         <a href="/#contact">Contact</a>

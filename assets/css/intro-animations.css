@@ -1,0 +1,86 @@
+body {
+  animation: disable-scroll 7s;
+}
+
+@keyframes disable-scroll {
+  0% {
+    overflow-y: hidden;
+  }
+  99% {
+    overflow-y: hidden;
+  }
+  100% {
+    overflow-y: scroll;
+  }
+}
+
+.nav.intro {
+  animation: intro-nav 5s;
+}
+
+@keyframes intro-nav {
+  0% {
+    transform: translate(0, -100%);
+  }
+  50% {
+    transform: translate(0, -100%);
+    filter: blur(10px);
+  }
+  100% {
+    transform: translate(0, 0);
+    filter: blur(0);
+  }
+}
+
+.landing h1 + h1, .landing p {
+  animation: intro-landing 3s 0s;
+}
+
+@keyframes intro-landing {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translate(0, -100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.landing .image {
+  animation: intro-landing-image 4s 0s;
+}
+
+@keyframes intro-landing-image {
+  0% {
+    opacity: 0;
+    transform: translate(440%, 150%);
+  }
+  70% {
+    transform: translate(440%, 150%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(440%, 35%);
+    opacity: 1;
+  }
+}
+
+.scroll {
+  animation: intro-scroll 6s 0s;
+}
+
+@keyframes intro-scroll {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

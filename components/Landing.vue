@@ -13,7 +13,7 @@
           <span>camarm</span>
         </span>
       </h1>
-      <p>A french 14 yo junior developer !</p>
+      <p>A french 15 yo junior developer !</p>
     </div>
     <div class="scroll">
       <div class="arrow-container">
@@ -27,7 +27,7 @@
 export default {
   name: "Landing",
   methods: {
-    loadJS: () => { import('assets/js/landing') }
+    loadJS: () => { import('assets/js/landing') },
   },
   beforeMount() {
     this.loadJS()

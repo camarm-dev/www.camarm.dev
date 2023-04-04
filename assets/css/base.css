@@ -1,5 +1,6 @@
 @import "assets/css/navbar.css";
 @import "assets/css/landing.css";
+@import "assets/css/intro-animations.css";
 /*@import "assets/fonts/Amiko/Amiko.css";*/
 
 :root {
@@ -14,6 +15,8 @@
   --white: #DBD9DD;
   --white-alt: #F2F2F2;
   --grey: #797987;
+  --SVG-r-l: url("assets/images/lines/right-to-left.svg");
+  --SVG-l-r: url("assets/images/lines/left-to-right.svg");
 }
 
 * {

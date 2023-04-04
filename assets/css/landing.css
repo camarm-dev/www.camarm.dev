@@ -2,7 +2,7 @@
   height: 90vh;
   padding-top: 10vh;
   width: max-content;
-  margin: auto;
+  margin: auto auto 20vh;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -190,5 +190,63 @@
   0% {opacity: 0}
   50% {opacity: 1}
   100% {opacity: 0}
+}
+
+svg .color, svg.blue .color {
+  stroke: var(--blue);
+}
+
+svg.pink .color {
+  stroke: var(--pink);
+}
+
+svg.purple .color {
+  stroke: var(--purple);
+}
+
+.about .link {
+  text-align: center;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.about {
+  width: 90%;
+  margin: auto;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.about article {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: max-content;
+}
+
+.about article .content, .about article .media {
+  width: 40%;
+}
+
+.about article .content h2 {
+  font-size: 2.5em;
+  color: var(--white-alt);
+  font-weight: bold;
+}
+
+.about article .content p {
+  font-size: 1.5em;
+  text-align: justify;
+  font-weight: 100;
+  content: var(--white-alt);
+}
+
+@media (max-width: 1024px) {
+  .about {
+    width: 100%;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
 }
 
