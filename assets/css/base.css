@@ -1,0 +1,30 @@
+@import "assets/css/navbar.css";
+@import "assets/css/landing.css";
+/*@import "assets/fonts/Amiko/Amiko.css";*/
+
+:root {
+  --blue: #6066FF;
+  --blue-alt: #90AFFF;
+  --pink: #A660FF;
+  --pink-alt: #C190FF;
+  --purple: #8263FF;
+  --purple-alt: #AAA0FF;
+  --black: #1a181e;
+  --black-alt: #323237;
+  --white: #DBD9DD;
+  --white-alt: #F2F2F2;
+  --grey: #797987;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "Amiko", sans-serif;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}

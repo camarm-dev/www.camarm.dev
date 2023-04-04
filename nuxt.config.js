@@ -10,11 +10,17 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      // <script src="https://kit.fontawesome.com/628c8d2499.js" crossOrigin="anonymous"></script>
+      { src: 'https://kit.fontawesome.com/628c8d2499.js', crossOrigin: 'anonymous' },
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    "@/assets/css/base.css",
+    "@/assets/fonts/Amiko/Amiko.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -47,7 +53,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      lang: 'fr'
     }
   },
 
