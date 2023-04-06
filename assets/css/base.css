@@ -1,15 +1,19 @@
 @import "assets/css/navbar.css";
 @import "assets/css/landing.css";
+@import "assets/css/blog.css";
 @import "assets/css/intro-animations.css";
 /*@import "assets/fonts/Amiko/Amiko.css";*/
 
 :root {
   --blue: #6066FF;
   --blue-alt: #90AFFF;
+  --gradient-blue: linear-gradient(var(--blue-alt), var(--blue));
   --pink: #A660FF;
   --pink-alt: #C190FF;
+  --gradient-pink: linear-gradient(var(--pink-alt), var(--pink));
   --purple: #8263FF;
   --purple-alt: #AAA0FF;
+  --gradient-purple: linear-gradient(var(--purple-alt), var(--purple));
   --black: #1a181e;
   --black-alt: #323237;
   --white: #DBD9DD;
@@ -30,4 +34,11 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+}
+
+.page-title {
+  padding-top: 15vh;
+  padding-left: 2em;
+  font-size: 3em;
+  margin-top: 0;
 }

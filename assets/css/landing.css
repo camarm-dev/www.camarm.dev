@@ -229,17 +229,83 @@ svg.purple .color {
   width: 40%;
 }
 
+.about article .media {
+  border: 2px solid transparent;
+  background-image: var(--gradient-blue);
+  border-radius: 16px;
+  background-color: var(--black);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  overflow: hidden;
+}
+
+.about article .media.blue {
+  background-image: var(--gradient-blue);
+}
+
+.about article .media.pink {
+  background-image: var(--gradient-pink);
+}
+
+.about article .media.purple {
+  background-image: var(--gradient-purple);
+}
+
 .about article .content h2 {
   font-size: 2.5em;
   color: var(--white-alt);
   font-weight: bold;
 }
 
+.about article .content h2:before {
+  width: 0;
+  display: block;
+  content: "";
+  height: .09em;
+  position: relative;
+  transform: translate(0, 1.5em);
+  background-color: var(--white);
+  opacity: 0.8;
+  transition: .3s ease-in-out;
+}
+
+.about article.active .content h2:before {
+  width: 100%;
+}
+
+@keyframes slidingUnderline {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+
+  }
+}
+
 .about article .content p {
   font-size: 1.5em;
   text-align: justify;
   font-weight: 100;
-  content: var(--white-alt);
+  color: var(--grey);
+}
+
+.about article.active .content p {
+  animation: slide .3s;
+}
+
+
+@keyframes slide {
+  from {
+    transform: translate(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1024px) {
