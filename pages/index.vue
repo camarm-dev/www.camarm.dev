@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Navbar/>
-    <Landing/>
-    <About/>
+    <Navbar />
+    <Landing />
+    <About />
   </div>
 </template>
 
@@ -12,14 +12,14 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'IndexPage',
   computed: {
-    mainPage() {
+    mainPage () {
       return this.$route.name
     }
   },
   watch: {
     mainPage: {
       immediate: false,
-      handler() {
+      handler () {
         startIntersectionObserver()
       }
     }

@@ -8,8 +8,9 @@
   align-items: center;
   padding: 0 2em .5em .8em;
   position: fixed;
-  background-color: var(--black);
+  background-color: var(--black-50);
   z-index: 900;
+  backdrop-filter: saturate(140%) blur(5px);
 }
 
 .nav.active {

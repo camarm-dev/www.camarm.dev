@@ -4,21 +4,21 @@
       <div class="content">
         <h2>Welcome 🎉 !</h2>
         <p>
-          Welcome on my website !
+          Welcome to my website !
           I’m a french 15 years old junior developer and growing sysadmin passionated of Linux, servers infrastructures
           and open source.
         </p>
       </div>
       <div class="media">
-
+        <i>👋</i>
       </div>
     </article>
     <div class="link">
-      <LineToLeft class="blue"/>
+      <LineToLeft class="blue" />
     </div>
     <article>
       <div class="media purple">
-
+        <i>📄</i>
       </div>
       <div class="content">
         <h2>My objectives 🎓</h2>
@@ -31,7 +31,7 @@
       </div>
     </article>
     <div class="link">
-      <LineToRight class="purple"/>
+      <LineToRight class="purple" />
     </div>
     <article>
       <div class="content">
@@ -43,15 +43,15 @@
         </p>
       </div>
       <div class="media pink">
-
+        <i>💫</i>
       </div>
     </article>
     <div class="link">
-      <LineToLeft class="pink"/>
+      <LineToLeft class="pink" />
     </div>
     <article>
       <div class="media blue">
-
+        <i>📟</i>
       </div>
       <div class="content">
         <h2>Languages and technologies 💾</h2>
@@ -60,12 +60,14 @@
           As database, I mostly use Mongodb and I can't separate it. By working on Linux, I know this OS and the use of the shell.
           With my server I learnt how to properly deploy and maintain applications and their load management.
           I'm currently learning nuxt.js and Rust.
-          You can check <NuxtLink to="/work">my projects</NuxtLink> to see me in action.
+          You can check <NuxtLink to="/work">
+            my projects
+          </NuxtLink> to see me in action.
         </p>
       </div>
     </article>
     <div class="link">
-      <LineToRight class="blue"/>
+      <LineToRight class="blue" />
     </div>
     <article>
       <div class="content">
@@ -77,16 +79,15 @@
         </p>
       </div>
       <div class="media purple">
-
+        <i>🔮</i>
       </div>
     </article>
-    <div class="link">
-    </div>
+    <div class="link" />
   </section>
 </template>
 
 <script>
 export default {
-  name: "About"
+  name: 'About'
 }
 </script>

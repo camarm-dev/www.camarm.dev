@@ -1,9 +1,11 @@
 <template>
   <div>
     <Navbar />
-    <h1 class="page-title">Articles</h1>
+    <h1 class="page-title">
+      Articles
+    </h1>
     <div class="articles">
-      <Article v-for="article in $data.articles" v-bind:article-data="article" v-bind:key="article.id"/>
+      <Article v-for="article in $data.articles" :key="article.id" :article-data="article" />
     </div>
   </div>
 </template>
@@ -14,17 +16,17 @@ import 'axios'
 
 export default Vue.extend({
   name: 'BlogPage',
-  methods: {
-    async fetchArticles() {
-      this.articles = await fetch('https://dev.to/api/articles?username=camarm').then(resp => resp.json())
-    }
-  },
-  mounted() {
-    this.fetchArticles()
-  },
-  data() {
+  data () {
     return {
       articles: []
+    }
+  },
+  mounted () {
+    this.fetchArticles()
+  },
+  methods: {
+    async fetchArticles () {
+      this.articles = await fetch('https://dev.to/api/articles?username=camarm').then(resp => resp.json())
     }
   }
 })

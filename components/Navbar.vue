@@ -2,7 +2,7 @@
   <div class="nav">
     <div class="item logo">
       <a href="/">
-        <Logo/>
+        <Logo />
       </a>
     </div>
     <div class="items-stacked">
@@ -25,10 +25,10 @@
         <a href="/#contact">Contact</a>
       </div>
       <div class="item square gh">
-        <a href="https://github.com/camarm-dev" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/camarm-dev" target="_blank"><i class="fab fa-github" /></a>
       </div>
       <div class="item square gl">
-        <a href="https://gitlab.com/camarm" target="_blank"><i class="fab fa-gitlab"></i></a>
+        <a href="https://gitlab.com/camarm" target="_blank"><i class="fab fa-gitlab" /></a>
       </div>
     </div>
   </div>

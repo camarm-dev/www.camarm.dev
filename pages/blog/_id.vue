@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <div class="reading">
-      <ReadArticle :articleData="article"/>
+      <ReadArticle :article-data="article" />
     </div>
   </div>
 </template>
@@ -13,17 +13,17 @@ import 'axios'
 
 export default Vue.extend({
   name: 'ReadArticlePage',
-  methods: {
-    async fetchArticle() {
-      this.article = await fetch(`https://dev.to/api/articles/${this.$route.params.id}`).then(resp => resp.json())
-    }
-  },
-  mounted() {
-    this.fetchArticle()
-  },
-  data() {
+  data () {
     return {
       article: {}
+    }
+  },
+  mounted () {
+    this.fetchArticle()
+  },
+  methods: {
+    async fetchArticle () {
+      this.article = await fetch(`https://dev.to/api/articles/${this.$route.params.id}`).then(resp => resp.json())
     }
   }
 })

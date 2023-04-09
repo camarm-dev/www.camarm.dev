@@ -230,31 +230,52 @@ svg.purple .color {
 }
 
 .about article .media {
-  border: 2px solid transparent;
-  background-image: var(--gradient-blue);
-  border-radius: 16px;
   background-color: var(--black);
+  border: 2px solid transparent;
+  background-image: linear-gradient(var(--black),var(--black)), var(--gradient-blue);
+  border-radius: 16px;
   background-origin: border-box;
   background-clip: content-box,border-box;
   overflow: hidden;
+  max-height: 30em;
+  max-width: 30em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about article .media i {
+  font-size: 20em;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0, 8%);
 }
 
 .about article .media.blue {
-  background-image: var(--gradient-blue);
+  background-image: linear-gradient(var(--black),var(--black)), var(--gradient-blue);
 }
 
 .about article .media.pink {
-  background-image: var(--gradient-pink);
+  background-image: linear-gradient(var(--black),var(--black)), var(--gradient-pink);
 }
 
 .about article .media.purple {
-  background-image: var(--gradient-purple);
+  background-image: linear-gradient(var(--black),var(--black)), var(--gradient-purple);
+}
+
+.about article .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about article .content h2 {
   font-size: 2.5em;
   color: var(--white-alt);
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .about article .content h2:before {

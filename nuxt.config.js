@@ -13,14 +13,14 @@ export default {
     ],
     script: [
       // <script src="https://kit.fontawesome.com/628c8d2499.js" crossOrigin="anonymous"></script>
-      { src: 'https://kit.fontawesome.com/628c8d2499.js', crossOrigin: 'anonymous' },
+      { src: 'https://kit.fontawesome.com/628c8d2499.js', crossOrigin: 'anonymous' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "@/assets/css/base.css",
-    "@/assets/fonts/Amiko/Amiko.css"
+    '@/assets/css/base.css',
+    '@/assets/fonts/Amiko/Amiko.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

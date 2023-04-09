@@ -17,7 +17,7 @@
     </div>
     <div class="scroll">
       <div class="arrow-container">
-        <div class="arrow"></div>
+        <div class="arrow" />
       </div>
     </div>
   </div>
@@ -25,12 +25,12 @@
 
 <script>
 export default {
-  name: "Landing",
-  methods: {
-    loadJS: () => { import('assets/js/landing') },
-  },
-  beforeMount() {
+  name: 'Landing',
+  beforeMount () {
     this.loadJS()
+  },
+  methods: {
+    loadJS: () => { import('assets/js/landing') }
   }
 }
 </script>
