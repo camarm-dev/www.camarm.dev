@@ -43,3 +43,8 @@ body {
   font-size: 3em;
   margin-top: 0;
 }
+
+a {
+  color: var(--blue);
+  text-decoration: 2px var(--blue) underline;
+}

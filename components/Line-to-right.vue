@@ -42,6 +42,6 @@
 
 <script>
 export default {
-  name: 'LineToLeft'
+  name: 'LineToRight'
 }
 </script>

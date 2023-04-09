@@ -84,10 +84,10 @@
 
 .landing .image img {
   height: 6em;
-  border-radius: 50%;
+  border-radius: 10px;
   transition: 5s ease-in-out;
   animation: changingPhoto 10s ease-in-out infinite;
-  border: 1px solid var(--white-alt);
+  border: 1px solid var(--grey);
 }
 
 @keyframes changingPhoto {
@@ -290,19 +290,43 @@ svg.purple .color {
   transition: .3s ease-in-out;
 }
 
+.about article .content h2:after {
+  width: 0;
+  display: block;
+  content: "";
+  height: .15em;
+  position: relative;
+  background-color: var(--black);
+  opacity: 1;
+  transition: .3s ease-in-out;
+  z-index: 20 ;
+}
+
 .about article.active .content h2:before {
   width: 100%;
+  animation: slidingUnderline 1s;
 }
 
 @keyframes slidingUnderline {
   0% {
     width: 0;
   }
-  50% {
+  100% {
     width: 100%;
   }
-  100% {
+}
 
+.about article.active .content h2:after {
+  width: 100%;
+  animation: slidingUnderlineBlack 1s 1s;
+}
+
+@keyframes slidingUnderlineBlack {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
   }
 }
 
@@ -314,13 +338,13 @@ svg.purple .color {
 }
 
 .about article.active .content p {
-  animation: slide .3s;
+  animation: slide 1.5s;
 }
 
 
 @keyframes slide {
   from {
-    transform: translate(-100%);
+    transform: translate(50%);
     opacity: 0;
   }
   to {

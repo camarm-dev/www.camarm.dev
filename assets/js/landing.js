@@ -1,5 +1,6 @@
 const observerOptions = {
-  root: document.body
+  root: this.$el,
+  threshold: 1.0
 }
 const navbar = document.querySelector('.nav')
 const firstSection = document.querySelector('.landing')
@@ -36,7 +37,7 @@ function startIntersectionObserver () {
   sections.forEach(section => observer.observe(section))
 }
 
-// startIntersectionObserver()
+startIntersectionObserver()
 firstSection.scrollIntoView({ behavior: 'smooth' })
 addState(navbar, 'intro')
 setTimeout(() => { removeState(navbar, 'intro') }, 7000)

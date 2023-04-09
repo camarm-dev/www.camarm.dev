@@ -9,7 +9,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preload', type: 'image/x-icon', href: '@/assets/images/profil-armand.png' }
     ],
     script: [
       // <script src="https://kit.fontawesome.com/628c8d2499.js" crossOrigin="anonymous"></script>
