@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar />
+    <NavBar />
     <div class="reading">
       <ReadArticle :article-data="article" />
     </div>
