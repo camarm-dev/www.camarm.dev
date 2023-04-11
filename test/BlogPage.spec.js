@@ -1,8 +1,9 @@
-import BlogPage from '@/pages/blog/index.vue'
 import Component from 'vue'
+import BlogPage from '@/pages/blog/index.vue'
 
 describe('Blog page', () => {
-    test('is a page', () => {
-        expect(BlogPage._isVue && typeof BlogPage == Component)
-    })
+  test('is a page', () => {
+    expect(BlogPage._isVue)
+    expect(BlogPage instanceof Component)
+  })
 })
