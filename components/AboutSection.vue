@@ -86,6 +86,6 @@
 
 <script>
 export default {
-  name: 'About'
+  name: 'AboutSection'
 }
 </script>

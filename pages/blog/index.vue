@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Navbar />
+    <NavBar />
     <h1 class="page-title">
       Articles
     </h1>
     <div class="articles">
-      <Article v-for="article in $data.articles" :key="article.id" :article-data="article" />
+      <ArticleCard v-for="article in $data.articles" :key="article.id" :article-data="article" />
     </div>
   </div>
 </template>

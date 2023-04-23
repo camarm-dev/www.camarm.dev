@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Navbar />
-    <Landing />
-    <About />
+    <NavBar />
+    <LandingSection />
+    <AboutSection />
   </div>
 </template>
 
