@@ -223,6 +223,7 @@ svg.purple .color {
   display: flex;
   justify-content: space-between;
   height: max-content;
+  align-items: center;
 }
 
 .about article .content, .about article .media {
@@ -282,7 +283,7 @@ svg.purple .color {
   width: 0;
   display: block;
   content: "";
-  height: .09em;
+  height: .08em;
   position: relative;
   transform: translate(0, 1.5em);
   background-color: var(--white);
@@ -304,7 +305,7 @@ svg.purple .color {
 
 .about article.active .content h2:before {
   width: 100%;
-  animation: slidingUnderline 1s;
+  animation: slidingUnderline 2s;
 }
 
 @keyframes slidingUnderline {
@@ -344,7 +345,7 @@ svg.purple .color {
 
 @keyframes slide {
   from {
-    transform: translate(50%);
+    transform: translate(30%);
     opacity: 0;
   }
   to {
