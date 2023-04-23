@@ -1,6 +1,6 @@
 
 <template>
-  <svg class="" viewBox="0 0 749 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg class="" viewBox="0 0 726 160" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_d_43_24)">
       <path class="color" d="M1 171.5V119.5C1 101.827 15.3269 87.5 33 87.5H339H692C709.673 87.5 724 73.173 724 55.5V0.5" stroke-width="1.5" />
     </g>
