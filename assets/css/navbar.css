@@ -68,7 +68,7 @@
 .nav .item.square.gh a {
   background-color: #0d1117;
   color: #c9d1d9;
-  box-shadow: 0 0 5px #c9d1d9;
+  box-shadow: 0 0 5px #535456;
 }
 
 .nav .item.square.gh:hover a {
@@ -79,12 +79,25 @@
 .nav .item.square.gl a {
   background-color: #fc6d26;
   color: #ececef;
-  box-shadow: 0 0 5px #ececef;
+  box-shadow: 0 0 5px #f6d2c0;
 }
 
 .nav .item.square.gl:hover a {
   background-color: #ececef;
   color: #fc6d26;
+}
+
+.nav .item.square.ml a {
+  background: var(--gradient-blue);
+  background-size: 50%;
+  color: var(--white);
+  box-shadow: 0 0 5px #ececef;
+}
+
+.nav .item.square.ml:hover a {
+  background: var(--gradient-blue);
+  background-size: 100%;
+  color: var(--white-alt);
 }
 
 .nav .item {

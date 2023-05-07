@@ -2,7 +2,7 @@
   <div class="nav">
     <div class="item logo">
       <a href="/">
-        <Logo />
+        <LogoLarge />
       </a>
     </div>
     <div class="items-stacked">
@@ -29,6 +29,9 @@
       </div>
       <div class="item square gl">
         <a href="https://gitlab.com/camarm" target="_blank"><i class="fab fa-gitlab" /></a>
+      </div>
+      <div class="item square ml">
+        <a href="mailto:armand@camponovo.xyz" target="_blank"><i class="fas fa-envelope" /></a>
       </div>
     </div>
   </div>
