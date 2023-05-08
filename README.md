@@ -4,6 +4,12 @@ This website is avaible at https://www.camarm.dev.
 
 ## Documentation
 
+### Configuration
+`.env`
+```dotenv
+GITHUB_TOKEN=ghp_your_token
+```
+
 ### Developement run
 `yarn dev`
 Run a developement server.
