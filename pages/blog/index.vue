@@ -2,7 +2,7 @@
   <div>
     <NavBar />
     <h1 class="page-title">
-      Articles
+      Blog <span class="emoji">📝</span>
     </h1>
     <div class="articles">
       <ArticleCard v-for="article in $data.articles" :key="article.id" :article-data="article" />
