@@ -13,9 +13,6 @@
         <i>👨‍💻</i>
       </div>
     </article>
-    <div class="link">
-      <LineToLeft class="blue" />
-    </div>
     <article>
       <div class="media purple">
         <i>🗒️</i>
@@ -30,9 +27,6 @@
         </p>
       </div>
     </article>
-    <div class="link">
-      <LineToRight class="purple" />
-    </div>
     <article>
       <div class="content">
         <h2>My engagements</h2>
@@ -46,9 +40,6 @@
         <i>👊</i>
       </div>
     </article>
-    <div class="link">
-      <LineToLeft class="pink" />
-    </div>
     <article>
       <div class="media purple">
         <i>💾</i>
@@ -64,9 +55,6 @@
         </p>
       </div>
     </article>
-    <div class="link">
-      <LineToRight class="blue" />
-    </div>
     <article>
       <div class="content">
         <h2>Experiences</h2>
@@ -80,7 +68,6 @@
         <i>🔮</i>
       </div>
     </article>
-    <div class="link" />
   </section>
 </template>
 
