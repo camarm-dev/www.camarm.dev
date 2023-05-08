@@ -17,7 +17,6 @@ function removeState (el, state) {
 function startIntersectionObserver () {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-      console.log(entry)
       if (entry.isIntersecting) {
         if (entry.target.textContent === firstSection.textContent) {
           removeState(navbar, 'active')
