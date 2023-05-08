@@ -126,10 +126,12 @@
 }
 
 .reading .content img {
-  max-width: 100%;
+  max-width: 950px;
   width: 100%;
   object-fit: cover;
   transition: .2s ease-in-out;
+  margin-left: 50%;
+  transform: translate(-50%);
 }
 
 .reading .content blockquote {
