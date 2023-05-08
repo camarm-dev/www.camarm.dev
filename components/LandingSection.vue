@@ -26,7 +26,7 @@
 <script>
 export default {
   name: 'LandingSection',
-  created () {
+  created() {
     this.loadJS()
   },
   methods: {
