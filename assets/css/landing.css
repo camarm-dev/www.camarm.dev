@@ -332,13 +332,13 @@ svg.purple .color {
 }
 
 .about article.active .content p {
-  animation: slide 1.5s;
+  animation: 1.5s slide .1s;
 }
 
 
 @keyframes slide {
   from {
-    transform: translate(30%);
+    transform: translate(20%);
     opacity: 0;
   }
   to {
