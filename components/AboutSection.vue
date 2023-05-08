@@ -10,7 +10,7 @@
         </p>
       </div>
       <div class="media">
-        <i>🤗</i>
+        <i>👨‍💻</i>
       </div>
     </article>
     <div class="link">
