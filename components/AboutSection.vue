@@ -45,7 +45,7 @@
         <i>💾</i>
       </div>
       <div class="content">
-        <h2>Languages and technologies</h2>
+        <h2>Skills</h2>
         <p>
           Since I’ve started coding, I made a lot of web applications and PWA, with dynamic javascript and a Python backend in Flask.
           As database, I mostly use Mongodb and I can't separate it. By working on Linux, I know this OS and the use of the shell.
