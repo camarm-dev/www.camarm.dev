@@ -36,10 +36,26 @@
         <a href="mailto:armand@camponovo.xyz" target="_blank"><i class="fas fa-envelope" /></a>
       </div>
     </div>
+    <div class="burger" v-expand>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+
+Vue.directive('expand', {
+  inserted: (el) => {
+    el.addEventListener("click", function (event) {
+      event.preventDefault()
+      el.parentElement.classList.toggle("expanded")
+    });
+  }
+})
+
 export default {
   name: 'NavBar'
 }

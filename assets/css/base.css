@@ -17,7 +17,8 @@
   --gradient-purple: linear-gradient(var(--purple-alt), var(--purple));
   --black: #1a181e;
   --black-50: rgba(26, 24, 30, 0.5);
-  --black-alt: #323237;
+  --black-alt: #211f26;
+  --black-dark-alt: #27272b;
   --white: #DBD9DD;
   --white-alt: #F2F2F2;
   --grey: #797987;
