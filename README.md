@@ -7,7 +7,7 @@ This website is avaible at https://www.camarm.dev.
 ### Configuration
 `.env`
 ```dotenv
-GITHUB_TOKEN=ghp_your_token
+BACKEND=https://api.camarm.fr
 ```
 
 ### Developement run
@@ -25,4 +25,4 @@ Test application with specs in test/.
 `yarn lint`
 Lint code.
 
-The default Github Ci file created by nuxt wizard run test and lint at each commit to the repository.
+The default Git Ci file created by nuxt wizard run test and lint at each commit to the repository.
