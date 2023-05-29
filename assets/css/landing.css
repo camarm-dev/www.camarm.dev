@@ -155,7 +155,6 @@
 
 }
 .arrow {
-  position: absolute;
   width: 2px;
   height: 0px;
   background-color: var(--white);
