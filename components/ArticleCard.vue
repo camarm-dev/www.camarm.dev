@@ -22,7 +22,9 @@
 <script>
 export default {
   name: 'ArticleCard',
-  props: ['articleData']
+  props: {
+    articleData: JSON
+  }
 }
 </script>
 

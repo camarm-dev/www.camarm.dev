@@ -5,4 +5,3 @@ describe('Logo large', () => {
     expect(LogoLarge._isVue)
   })
 })
-

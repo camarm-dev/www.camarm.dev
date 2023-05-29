@@ -51,7 +51,9 @@
           As database, I mostly use Mongodb and I can't separate it. By working on Linux, I know this OS and the use of the shell.
           With my server I learnt how to properly deploy and maintain applications and their load management.
           I'm currently learning nuxt.js and Rust.
-          You can check <NuxtLink to="/work">my projects</NuxtLink> to see me in action.
+          You can check <NuxtLink to="/work">
+            my projects
+          </NuxtLink> to see me in action.
         </p>
       </div>
     </article>

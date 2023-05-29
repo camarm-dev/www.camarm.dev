@@ -13,6 +13,6 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'WorkPage',
+  name: 'WorkPage'
 })
 </script>

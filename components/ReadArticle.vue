@@ -8,7 +8,7 @@
     </header>
     <div class="subtitle">
       <p class="tags">
-        <span v-for="tag in articleData.tags" v-bind:key="tag" class="tag">#{{ tag }}</span>
+        <span v-for="tag in articleData.tags" :key="tag" class="tag">#{{ tag }}</span>
       </p>
       <p class="date">
         {{ articleData.readable_publish_date }}
@@ -27,7 +27,9 @@
 
 export default {
   name: 'ReadArticle',
-  props: ['articleData']
+  props: {
+    articleData: JSON
+  }
 }
 </script>
 

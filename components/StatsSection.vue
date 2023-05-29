@@ -1,6 +1,5 @@
 <template>
   <section class="stats">
-
     <div class="stat">
       <h1>{{ line_count }}</h1>
       <p>Lines of code</p>
@@ -23,7 +22,6 @@
       <h1>{{ repo_count }}</h1>
       <p>Repositories</p>
     </div>
-
   </section>
 </template>
 
@@ -31,7 +29,7 @@
 
 export default {
   name: 'StatsSection',
-  data() {
+  data () {
     return {
       line_count: 0,
       commit_count: 0,
@@ -39,11 +37,10 @@ export default {
     }
   },
   fetchOnServer: false,
-  async fetch() {
+  async fetch () {
     const url = 'http://localhost:8000' + '/statistics'
-    const response = await fetch(url).then((res) => res.json())
-    const stats = response['data']
-    console.log(stats)
+    const response = await fetch(url).then(res => res.json())
+    const stats = response.data
     this.line_count = stats.line_count
     this.commit_count = stats.commit_count
     this.repo_count = stats.repo_count
