@@ -15,6 +15,9 @@ function removeState (el, state) {
 }
 
 function startIntersectionObserver () {
+  if (location.pathname !== '/') {
+    document.body.classList.add('animated')
+  }
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {

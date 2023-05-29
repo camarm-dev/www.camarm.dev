@@ -1,4 +1,4 @@
-body {
+body.animated {
   animation: disable-scroll 7s;
 }
 
