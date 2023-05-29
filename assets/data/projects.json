@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "name": "Push 2 Prod",
+      "images": {
+        "default": "https://github.com/camarm-dev/p2p/blob/main/.github/logo.png?raw=true",
+        "alternative": "/images/work/p2p.gif"
+      },
+      "description": "Push 2 Prod is the modern and easiest way to push any apps into production in one command. It's an ssh based command line interface written in ruby.",
+      "links": [
+        {
+          "icon": "fab fa-github",
+          "href": "https://github.com/camarm-dev/p2p",
+          "class": "gh"
+        }
+      ]
+    },
+    {
+      "name": "Blaugue",
+      "images": {
+        "default": "/images/work/blaugue.png",
+        "alternative": "/images/work/blaugue.gif"
+      },
+      "description": "Blaugue is a blog I made for my family to get memories of holidays and travels !\nIt's open source and currently being rebuilt...",
+      "links": [
+        {
+          "icon": "fas fa-link",
+          "href": "http://blaugue.camponovo.xyz",
+          "class": "glow"
+        },
+        {
+          "icon": "fab fa-gitlab",
+          "href": "https://gitlab.com/comtelabs/blaugue",
+          "class": "gl"
+        }
+      ]
+    },
+    {
+      "name": "Ondine Portfolio",
+      "images": {
+        "default": "/images/work/ondine.png",
+        "alternative": "/images/work/ondine.gif"
+      },
+      "description": "Ondine CAMPONOVO's website is a portfolio for an artist. It has a dashboard page to add creations articles, classed by labels.\n<span class=\"emoji\">⚠️</span>Currently offline",
+      "links": [
+        {
+          "icon": "fas fa-link",
+          "href": "http://ondine.camponovo.art",
+          "class": "glow"
+        },
+        {
+          "icon": "fab fa-gitlab",
+          "href": "https://gitlab.com/comtelabs/ondine.camponovo.art",
+          "class": "gl"
+        }
+      ]
+    }
+  ]
+}

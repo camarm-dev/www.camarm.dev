@@ -1,0 +1,156 @@
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-bottom: 3em;
+}
+
+.stats .stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats .stat h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.stats .stat p {
+  color: var(--grey);
+}
+
+.stats .word {
+  justify-content: center;
+}
+
+.stats .word h1 {
+  font-weight: 200;
+  font-size: 1em;
+}
+
+@media (min-width: 1024px) {
+  .stats {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+.work {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(36em, 1fr));
+  justify-items: center;
+  margin: auto;
+  width: 99vw;
+}
+
+.work .card {
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 50em;
+  width: 35em;
+  height: 35em;
+  margin: 1em;
+  border: 2px solid var(--black-alt);
+  transition: .5s ease-in-out;
+  padding-bottom: .8em;
+}
+
+.work .card header {
+  height: 80%;
+}
+
+.work .card h1 {
+  transform: translate(0, -150%);
+  color: var(--black-alt);
+  max-width: 25em;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0 1em 0 .5em;
+  text-shadow: 0 0 1px var(--white);
+  position: absolute;
+}
+
+.work .card header:hover + h1 {
+  color: var(--white);
+}
+
+.work .card header img::before {
+  display: none;
+}
+
+.work .card header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work .card header img.alternative {
+  display: none;
+  object-fit: contain;
+}
+
+.work .card header:hover img {
+  display: none;
+}
+
+.work .card header:hover img.alternative {
+  display: block;
+}
+
+.work .card:hover {
+  box-shadow: 0 0 8px var(--black-alt);
+}
+
+.work .card .content {
+  margin-top: 1em;
+  padding-left: 1em;
+}
+
+.work .card .links {
+  display: flex;
+  justify-content: start;
+  padding-left: 1em;
+  margin-top: .2em;
+}
+
+.work .card .links a {
+  color: var(--blue);
+  margin-right: .5em;
+}
+
+.work .card .links a.glow svg {
+  transition: .2s ease-in-out;
+  filter: drop-shadow(0 0 0px var(--blue-alt));
+}
+
+.work .card .links a.glow:hover svg {
+  filter: drop-shadow(0 0 1px var(--blue-alt))
+}
+
+.work .card .links a.gh {
+  color: var(--white-alt);
+}
+
+.work .card .links a.gl {
+  color: #fc6d26;
+}
+
+@media (max-width: 1100px) {
+  .work {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+  .work .card {
+    max-width: 90vw;
+    width: 90vw;
+  }
+}
+@media (max-width: 750px) {
+  .work {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    padding: 1em;
+  }
+}
