@@ -63,7 +63,7 @@ export default {
   build: {
   },
 
-  privateRuntimeConfig: {
-    githubToken: process.env.GITHUB_TOKEN
+  publicRuntimeConfig: {
+    backend: process.env.BACKEND
   }
 }
