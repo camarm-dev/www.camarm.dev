@@ -147,6 +147,12 @@
     max-width: 90vw;
     width: 90vw;
   }
+  .work .card header img.alternative {
+    object-fit: cover;
+  }
+  .work .card header:hover + h1 {
+    color: var(--black);
+  }
 }
 @media (max-width: 750px) {
   .work {
