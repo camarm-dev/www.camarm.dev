@@ -22,7 +22,9 @@
         </NuxtLink>
       </div>
       <div class="item">
-        <a href="/#contact">Contact</a>
+        <NuxtLink to="/contact">
+          Contact
+        </NuxtLink>
       </div>
       <div class="item square gh">
         <a href="https://github.com/camarm-dev" target="_blank"><i class="fab fa-github" /></a>
