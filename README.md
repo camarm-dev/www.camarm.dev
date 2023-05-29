@@ -1,6 +1,6 @@
 # camarm Website
 This repository contains th camarm's website code.
-This website is avaible at https://www.camarm.dev.
+This website is available at https://www.camarm.dev.
 
 ## Documentation
 
