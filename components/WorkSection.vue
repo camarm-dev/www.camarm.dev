@@ -1,6 +1,6 @@
 <template>
   <section class="work">
-    <div v-for="project in $data.projects" :key="project.name" class="card">
+    <div v-for="project in $data.projects" :key="project.name" :class="`card ${project.class}`">
       <header>
         <img :alt="project.name + ' Image'" :src="project.images.default" class="default">
         <img :alt="project.name + ' Image'" :src="project.images.alternative" class="alternative">
