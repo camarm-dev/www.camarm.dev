@@ -70,8 +70,13 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   margin: 0 1em 0 .5em;
-  text-shadow: 0 0 1px var(--white);
+  text-shadow: 0 0 2px var(--white);
   position: absolute;
+}
+
+.work .card.white h1 {
+  color: var(--white);
+  text-shadow: 0 0 10px var(--black);
 }
 
 .work .card header:hover + h1 {
