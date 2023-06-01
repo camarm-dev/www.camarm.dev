@@ -41,7 +41,7 @@
         "default": "/images/work/ondine.png",
         "alternative": "/images/work/ondine.gif"
       },
-      "description": "Ondine CAMPONOVO's website is a portfolio for an artist. It has a dashboard page to add creations articles, classed by labels.\n<span class=\"emoji\">⚠️</span>Currently offline",
+      "description": "Ondine CAMPONOVO's website is a portfolio for an artist. It has a dashboard page to add creations articles, classed by labels.\n<span class=\"emoji\">⚠️</span>&nbsp;Currently offline",
       "links": [
         {
           "icon": "fas fa-link",
@@ -52,6 +52,82 @@
           "icon": "fab fa-gitlab",
           "href": "https://gitlab.com/comtelabs/ondine.camponovo.art",
           "class": "gl"
+        }
+      ]
+    },
+    {
+      "name": "Elevedirect",
+      "images": {
+        "default": "/images/work/elevedirect.png",
+        "alternative": "/images/work/elevedirect.gif"
+      },
+      "description": "Elevedirect is an open source Ecoledirect client, with a new interface, and news functionalities built by a student for students.\n<span class=\"emoji\">⚠️</span>&nbsp;Unofficial product !",
+      "links": [
+        {
+          "icon": "fas fa-link",
+          "href": "https://elevedirect.tk",
+          "class": "glow"
+        },
+        {
+          "icon": "fas fa-home",
+          "href": "https://app.elevedirect.tk",
+          "class": "glow"
+        },
+        {
+          "icon": "fab fa-github",
+          "href": "https://github.com/elevedirect/app",
+          "class": "gh"
+        }
+      ]
+    },
+    {
+      "name": "Magoole",
+      "images": {
+        "default": "/images/work/magoole.png",
+        "alternative": "/images/work/magoole.gif"
+      },
+      "description": "Magoole is an open source and data privacy focused search engine with its own crawler and website discovering.\n<span class=\"emoji\">⚠️</span>&nbsp;Experimental !",
+      "links": [
+        {
+          "icon": "fab fa-github",
+          "href": "https://github.com/magoole/scanner",
+          "class": "gh"
+        }
+      ]
+    },
+    {
+      "name": "La Plante Qr",
+      "images": {
+        "default": "/images/work/planteqr.png",
+        "alternative": "/images/work/planteqr.gif"
+      },
+      "description": "La Plante Qr is a school project, that sold kit to learn how to garden. By scanning your kit's Qr code, you will access to sheets about your plant. You can also take pictures of it and download a slideshow !",
+      "links": [
+        {
+          "icon": "fas fa-link",
+          "href": "https://planteqr.eu.org",
+          "class": "glow"
+        },
+        {
+          "icon": "fab fa-github",
+          "href": "https://github.com/minientreprise-scv/app",
+          "class": "gh"
+        }
+      ]
+    },
+    {
+      "name": "Étalans Weather Station",
+      "class": "white",
+      "images": {
+        "default": "/images/work/meteo.png",
+        "alternative": "/images/work/meteo.gif"
+      },
+      "description": "A weather station that collect temperature and humidity from a raspberry pi and generate charts and analyses on a website.\n<span class=\"emoji\">⚠️</span>&nbsp;Currently offline",
+      "links": [
+        {
+          "icon": "fas fa-link",
+          "href": "https://meteo.camarm.fr",
+          "class": "glow"
         }
       ]
     }
