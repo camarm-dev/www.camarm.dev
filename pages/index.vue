@@ -3,6 +3,9 @@
     <NavBar />
     <LandingSection />
     <AboutSection />
+    <div align="center" style="margin-bottom: 20em;">
+      <h2>Discover my <NuxtLink to="/work">work</NuxtLink>.</h2>
+    </div>
   </div>
 </template>
 
