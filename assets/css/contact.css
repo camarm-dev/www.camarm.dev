@@ -1,0 +1,99 @@
+.socials {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials button, .contact .actions button {
+  border-radius: 7px;
+  padding: .5em;
+  font-size: 1.1em;
+  border: 0;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.socials .dt {
+  background-color: #141f2d;
+  color: #cedae2;
+}
+
+.socials .dt:hover {
+  background-color: #cedae2;
+  color: #141f2d;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 5em auto auto;
+  width: 50%;
+}
+
+.contact .top, .contact .middle, .contact .textarea {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  max-width: 100%;
+}
+
+.contact .middle .field {
+  width: 50%;
+}
+
+.contact .field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+}
+
+.contact .field + .field{
+  margin-right: 1em;
+}
+
+.contact .field:last-child {
+  margin-right: 0;
+}
+
+.contact .field label {
+  color: var(--grey);
+  font-size: .8em;
+}
+
+.contact input, .contact textarea {
+  padding: .7em;
+  font-size: 1.1em;
+  background-color: var(--black-alt);
+  color: var(--white);
+  border: 0;
+  border-radius: 7px;
+}
+
+.contact .textarea textarea {
+  font-size: 1.2em;
+  width: 100%;
+  height: 10em;
+}
+
+.contact input:focus, .contact textarea:focus {
+  outline: 1px solid var(--purple);
+  box-shadow: 0 0 2px var(--purple);
+}
+
+.contact .actions button {
+  background-color: var(--blue);
+  color: var(--white);
+  transition: .5s ease-in-out;
+}
+
+.contact .actions button:hover {
+  background-color: var(--pink);
+  color: var(--black);
+}
+
+@media (max-width: 1500px) {
+  .contact {
+    width: 80%;
+  }
+}

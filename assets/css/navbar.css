@@ -66,24 +66,24 @@
   transform: scale(1.05);
 }
 
-.nav .item.square.gh a {
+.nav .item.square.gh a, .socials .gh {
   background-color: #0d1117;
   color: #c9d1d9;
   box-shadow: 0 0 5px #535456;
 }
 
-.nav .item.square.gh:hover a {
+.nav .item.square.gh:hover a, .socials .gh:hover {
   background-color: #21262d;
   color: #f0f6fc;
 }
 
-.nav .item.square.gl a {
+.nav .item.square.gl a, .socials .gl {
   background-color: #fc6d26;
   color: #ececef;
   box-shadow: 0 0 5px #f6d2c0;
 }
 
-.nav .item.square.gl:hover a {
+.nav .item.square.gl:hover a, .socials .gl:hover {
   background-color: #ececef;
   color: #fc6d26;
 }
