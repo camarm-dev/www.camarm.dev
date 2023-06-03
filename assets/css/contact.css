@@ -198,4 +198,15 @@ footer.acknowledgements .sections div a:hover:after {
   footer.acknowledgements .right {
     margin-top: 1.5em;
   }
+
+  .socials {
+    display: grid;
+    grid-template-columns: .7fr .7fr;
+  }
+
+  .socials button {
+    margin-top: .7em;
+    margin-right: .7em;
+    margin-left: .7em;
+  }
 }
