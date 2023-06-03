@@ -1,8 +1,8 @@
 <template>
   <footer class="acknowledgements">
     <div class="right">
-      <LogoLarge/>
-      <p>www.camarm.dev with <i class="fas fa-heart"></i> by @camarm for CAMARM Inc.</p>
+      <LogoLarge />
+      <p>www.camarm.dev with <i class="fas fa-heart" /> by @camarm for CAMARM Inc.</p>
     </div>
     <div class="sections">
       <div>
