@@ -2,7 +2,7 @@
   <div>
     <NavBar />
     <h1 class="page-title">
-      Work <span class="emoji">🎭</span>
+      Work <span class="emoji">☕</span>
     </h1>
     <StatsSection />
     <WorkSection />
