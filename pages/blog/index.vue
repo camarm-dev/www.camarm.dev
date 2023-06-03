@@ -7,6 +7,7 @@
     <div class="articles">
       <ArticleCard v-for="article in $data.articles" :key="article.id" :article-data="article" />
     </div>
+    <AknownledgementsSection />
   </div>
 </template>
 
