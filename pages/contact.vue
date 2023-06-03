@@ -23,7 +23,7 @@
         camarm#4369&nbsp;<i class="fab fa-discord" />
       </button>
     </div>
-    <AknownledgementsSection />
+    <AcknowledgementsSection />
   </div>
 </template>
 

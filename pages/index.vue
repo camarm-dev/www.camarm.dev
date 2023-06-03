@@ -12,7 +12,7 @@
         .
       </h2>
     </div>
-    <AknownledgementsSection />
+    <AcknowledgementsSection />
   </div>
 </template>
 

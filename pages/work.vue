@@ -6,7 +6,7 @@
     </h1>
     <StatsSection />
     <WorkSection />
-    <AknownledgementsSection />
+    <AcknowledgementsSection />
   </div>
 </template>
 
