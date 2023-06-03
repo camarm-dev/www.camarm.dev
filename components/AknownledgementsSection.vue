@@ -29,6 +29,6 @@
 <script>
 
 export default {
-  name: 'AknownledgementsSection'
+  name: 'AcknowledgementsSection'
 }
 </script>
