@@ -3,24 +3,26 @@
     <div class="top">
       <div class="field">
         <label>Email</label>
-        <input @input="sender.email = $event.target.value" :value="sender.email" type="email" placeholder="jean.baptiste@dupont.com">
+        <input :value="sender.email" type="email" placeholder="jean.baptiste@dupont.com" @input="sender.email = $event.target.value">
       </div>
     </div>
     <div class="middle">
       <div class="field">
         <label>Fullname</label>
-        <input @input="sender.name = $event.target.value" :value="sender.name" type="text" placeholder="Jean-Baptiste Dupont">
+        <input :value="sender.name" type="text" placeholder="Jean-Baptiste Dupont" @input="sender.name = $event.target.value">
       </div>
       <div class="field">
         <label>Subject</label>
-        <input @input="subject = $event.target.value" :value="subject" type="text" placeholder="I saw your website">
+        <input :value="subject" type="text" placeholder="I saw your website" @input="subject = $event.target.value">
       </div>
     </div>
     <div class="textarea">
-      <textarea @input="content = $event.target.value" :value="content" placeholder="I saw your website today..."></textarea>
+      <textarea :value="content" placeholder="I saw your website today..." @input="content = $event.target.value" />
     </div>
     <div class="actions">
-      <button type="button" @click="sendMail()">Send&nbsp;<i class="fas fa-paper-plane"></i></button>
+      <button type="button" @click="sendMail()">
+        Send&nbsp;<i class="fas fa-paper-plane" />
+      </button>
     </div>
   </form>
 </template>
@@ -29,18 +31,18 @@
 
 export default {
   name: 'ContactForm',
-  data() {
-      return {
-        sender: {
-          name: '',
-          email: ''
-        },
-        subject: '',
-        content: ''
-      }
+  data () {
+    return {
+      sender: {
+        name: '',
+        email: ''
+      },
+      subject: '',
+      content: ''
+    }
   },
   methods: {
-    async sendMail() {
+    async sendMail () {
       const url = 'http://localhost:8000' + '/contact'
       const body = {
         sender: {
@@ -54,12 +56,11 @@ export default {
       const options = {
         method: 'POST',
         headers: {
-          "Content-Type": "application/json"
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify(body)
       }
       const response = await fetch(url, options).then(res => res.json())
-      console.log(response)
       if (response.code === 200) {
         alert('Message sent !')
       } else {
