@@ -21,6 +21,7 @@
   --black-alt: #211f26;
   --black-dark-alt: #27272b;
   --white: #DBD9DD;
+  --white-25: rgba(219, 217, 221, 0.25);
   --white-alt: #F2F2F2;
   --grey: #797987;
   --SVG-r-l: url("assets/images/lines/right-to-left.svg");
