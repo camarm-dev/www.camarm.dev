@@ -186,3 +186,16 @@ footer.acknowledgements .sections div a:hover:after {
   width: calc(100%);
 }
 
+@media (max-width: 1024px) {
+  footer.acknowledgements {
+    flex-direction: column-reverse;
+  }
+
+  footer.acknowledgements .right, footer.acknowledgements .sections  {
+    width: auto;
+  }
+
+  footer.acknowledgements .right {
+    margin-top: 1.5em;
+  }
+}
