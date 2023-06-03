@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import projects from 'assets/data/projects.json'
+import projects from '@/assets/data/projects.json'
 
 export default {
   name: 'WorkSection',
