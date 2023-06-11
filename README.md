@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/header.png" title="Banner" alt="Banner of camarm website">
+</p>
+
 # camarm Website
 This repository contains th camarm's website code.
 This website is available at https://www.camarm.dev.
