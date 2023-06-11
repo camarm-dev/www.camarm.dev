@@ -130,6 +130,22 @@
           "class": "glow"
         }
       ]
+    },
+    {
+      "name": "CocoyoyoLibrairie",
+      "class": "white",
+      "images": {
+        "default": "/images/work/librairie.png",
+        "alternative": "/images/work/librairie.gif"
+      },
+      "description": "A Babelio like library to store, comment and track read books. It has a light/dark mode, a filter function and an complete interface to manage lists and authors.",
+      "links": [
+        {
+          "icon": "fas fa-link",
+          "href": "https://cocoyoyo-librairie.camponovo.space/",
+          "class": "glow"
+        }
+      ]
     }
   ]
 }
