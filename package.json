@@ -19,7 +19,10 @@
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "consolidate": "~1.0.1",
+    "@npmcli/fs": "~3.1.0",
+    "chokidar": "~3.5.3"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",

@@ -1,6 +1,12 @@
-version: "3.9"
+version: "3"
 services:
   www.camarm.dev:
     build: .
-    ports: 
+    ports:
       - "3000:3000"
+  api.camarm.fr:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "8000:8000"

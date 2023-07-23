@@ -1,0 +1,16 @@
+FROM python:3-alpine
+
+# Create destination directory
+RUN mkdir -p /usr/src/api
+WORKDIR /usr/src/api
+
+# Update and install dependency
+RUN apk update && apk upgrade
+RUN apk add git
+RUN pip install --upgrade pip
+
+# Clone repo & install pypi packages
+RUN git clone https://github.com/camarm-dev/api.camarm.fr /usr/src/api
+RUN pip install -r requirements.txt
+
+CMD [ "python3", "main.py" ]
