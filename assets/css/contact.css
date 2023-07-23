@@ -115,8 +115,11 @@ footer.acknowledgements {
   margin-top: 5em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  border-top: 1px solid var(--grey);
+  border-top: 2px solid var(--grey);
   background-color: var(--black-alt);
+  position: relative;
+  bottom: 0;
+  top: 15%;
 }
 
 footer.acknowledgements .cd-logo {
@@ -195,6 +198,11 @@ footer.acknowledgements .sections div a:hover:after {
     width: auto;
   }
 
+  footer.acknowledgements .sections {
+    flex-direction: column;
+    margin-left: 5em;
+  }
+
   footer.acknowledgements .right {
     margin-top: 1.5em;
   }
@@ -208,5 +216,17 @@ footer.acknowledgements .sections div a:hover:after {
     margin-top: .7em;
     margin-right: .7em;
     margin-left: .7em;
+  }
+
+  .contact .middle {
+    flex-direction: column;
+  }
+
+  .contact .middle .field {
+    width: 100%;
+  }
+
+  .contact .middle .field:last-child {
+    margin-top: .7em;
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <h1 class="page-title">
+    <h1 class="page-title less">
       Contact me <span class="emoji">📨</span>
       <p style="color: var(--grey); font-size: .4em; padding-left: .2em;">
         Contact me for any request, projects, issues... I'm available for little code missions.
@@ -11,16 +11,19 @@
     <hr>
     <div class="socials">
       <button class="gl" @click="open('https://gitlab.com/camarm')">
-        @camarm&nbsp;<i class="fab fa-gitlab" />
+        Gitlab&nbsp;<i class="fab fa-gitlab" />
       </button>
       <button class="gh" @click="open('https://github.com/camarm-dev')">
-        @camarm-dev&nbsp;<i class="fab fa-github" />
+        Github&nbsp;<i class="fab fa-github" />
+      </button>
+      <button class="" @click="open('mailto:armand@camponovo.xyz')">
+        Email&nbsp;<i class="fas fa-envelope" />
       </button>
       <button class="dt" @click="open('https://dev.to/camarm')">
-        @camarm&nbsp;<i class="fab fa-dev" />
+        Dev.to&nbsp;<i class="fab fa-dev" />
       </button>
       <button class="ds" @click="open('https://discordapp.com/users/690581743425814548')">
-        camarm#4369&nbsp;<i class="fab fa-discord" />
+        Discord&nbsp;<i class="fab fa-discord" />
       </button>
     </div>
     <AcknowledgementsSection />

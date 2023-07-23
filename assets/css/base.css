@@ -39,6 +39,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+  min-height: 100vh;
 }
 
 .page-title {
@@ -56,4 +57,13 @@ body {
 a {
   color: var(--blue);
   text-decoration: 2px var(--blue) underline;
+}
+
+@media (max-width: 1024px) {
+  .page-title {
+    padding-left: .5em;
+  }
+  .page-title.less {
+    padding-left: .2em;
+  }
 }

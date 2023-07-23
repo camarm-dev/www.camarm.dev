@@ -63,6 +63,8 @@ export default {
       const response = await fetch(url, options).then(res => res.json())
       if (response.code === 200) {
         alert('Message sent !')
+      } else if (response.code === 401) {
+        alert('Sorry, you have already sent an email using this form. Please contact me directly by email now :) !')
       } else {
         alert('Error occurred while sending message !')
       }
