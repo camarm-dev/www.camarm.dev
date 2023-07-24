@@ -9,24 +9,53 @@ This website is available at https://www.camarm.dev.
 ## Documentation
 
 ### Configuration
+// TODO:  .env values aren't used yet ! 
+
 `.env`
 ```dotenv
 BACKEND=https://api.camarm.fr
 ```
 
 ### Developement run
-`yarn dev`
+```shell
+npm run dev
+```
 Run a developement server.
 
 ### Deployement run
-`yarn build && yarn start`
+```shell
+npm run build && npm start
+```
 Properly build and run the nuxt website.
 
 ### Lint & Test
-`yarn test`
+```shell
+npm run test
+```
 Test application with specs in test/.
 
-`yarn lint`
+```shell
+npm run lint
+```
 Lint code.
 
 The default Git Ci file created by nuxt wizard run test and lint at each commit to the repository.
+
+
+## Docker
+A `docker-compose.yml` file, in the project root runs this nuxt frontend and the [api code](https://github.com/camarm-dev/api.camarm.fr) simultaneous !
+
+It's used for production purposes!
+
+> `docker-compose` can be `docker compose` depending on your docker-compose version
+
+## Build and start
+```shell
+docker-compose up
+```
+
+## Rebuild a project
+(choice: www.camarm.dev / api.camarm.fr)
+```shell
+docker-compose build [project]
+```
