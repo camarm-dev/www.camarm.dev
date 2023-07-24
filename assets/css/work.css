@@ -117,7 +117,7 @@
 
 .work .card .links {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   padding-left: 1em;
   margin-top: .2em;
 }
