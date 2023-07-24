@@ -18,7 +18,7 @@
       </div>
       <div>
         <p>Legal</p>
-        <a href="https://raw.githubusercontent.com/camarm-dev/www.camarm.dev/main/LICENSE" target="_blank">Code license</a>
+        <a href="https://raw.githubusercontent.com/camarm-dev/www.camarm.dev/master/LICENSE" target="_blank">Code license</a>
         <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/" target="_blank">Images, texts & brand license</a>
         <a href="/legal" target="_blank">Legal notice</a>
       </div>
