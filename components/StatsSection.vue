@@ -26,8 +26,7 @@
 </template>
 
 <script>
-
-export default {
+export default defineComponent({
   name: 'StatsSection',
   data () {
     return {
@@ -37,13 +36,18 @@ export default {
     }
   },
   fetchOnServer: false,
-  async fetch () {
-    const url = 'http://localhost:8000' + '/statistics'
-    const response = await fetch(url).then(res => res.json())
-    const stats = response.data
-    this.line_count = stats.line_count
-    this.commit_count = stats.commit_count
-    this.repo_count = stats.repo_count
+  methods: {
+    async fetchData() {
+      const url = this.$config.public.backend + '/statistics'
+      const response = await fetch(url).then(res => res.json())
+      const stats = response.data
+      this.line_count = stats.line_count
+      this.commit_count = stats.commit_count
+      this.repo_count = stats.repo_count
+    }
+  },
+  mounted() {
+    this.fetchData()
   }
-}
+})
 </script>

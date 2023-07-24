@@ -29,7 +29,7 @@
 
 <script>
 
-export default {
+export default defineComponent({
   name: 'ContactForm',
   data () {
     return {
@@ -43,7 +43,7 @@ export default {
   },
   methods: {
     async sendMail () {
-      const url = 'http://localhost:8000' + '/contact'
+      const url = this.$config.public.backend + '/contact'
       const body = {
         sender: {
           name: this.sender.name,
@@ -72,5 +72,5 @@ export default {
       }
     }
   }
-}
+})
 </script>

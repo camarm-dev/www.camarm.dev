@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import NavBar from "~/components/NavBar.vue";
+import StatsSection from "~/components/StatsSection.vue";
+import WorkSection from "~/components/WorkSection.vue";
+import AcknowledgementsSection from "~/components/AcknowledgementsSection.vue";
+</script>
 <template>
   <div>
     <NavBar />
@@ -9,11 +15,3 @@
     <AcknowledgementsSection />
   </div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'WorkPage'
-})
-</script>

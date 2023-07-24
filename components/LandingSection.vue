@@ -24,13 +24,13 @@
 </template>
 
 <script>
-export default {
+export default defineComponent({
   name: 'LandingSection',
-  created () {
+  created() {
     this.loadJS()
   },
   methods: {
     loadJS: () => { import('assets/js/landing') }
   }
-}
+})
 </script>

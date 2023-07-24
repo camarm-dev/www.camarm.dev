@@ -28,7 +28,7 @@
 
 <script>
 
-export default {
+export default defineComponent({
   name: 'AcknowledgementsSection'
-}
+})
 </script>

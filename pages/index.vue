@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import AboutSection from "~/components/AboutSection.vue";
+import NavBar from "~/components/NavBar.vue";
+import LandingSection from "~/components/LandingSection.vue";
+import AcknowledgementsSection from "~/components/AcknowledgementsSection.vue";
+</script>
+
 <template>
   <div>
     <NavBar />
@@ -15,24 +22,3 @@
     <AcknowledgementsSection />
   </div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-  computed: {
-    mainPage () {
-      return this.$route.name
-    }
-  },
-  watch: {
-    mainPage: {
-      immediate: false,
-      handler () {
-        startIntersectionObserver()
-      }
-    }
-  }
-})
-</script>

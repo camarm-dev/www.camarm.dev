@@ -1,3 +1,8 @@
+<script>
+export default defineComponent({
+  name: 'AboutSection'
+})
+</script>
 <template>
   <section class="about">
     <article>
@@ -28,18 +33,18 @@
       </div>
     </article>
     <article>
-      <div class="content">
-        <h2>My engagements</h2>
-        <p>
-          I'm always trying to use open source and privacy respectives tools. That’s why I host alternatives to GAFAM's services on my server.
-          I use Linux (Ubuntu) 90% of the time to code and work and only use windows to play games. Linux is today a good alternative to windows, it’s free, open source and powerful !
-          I can't stand data privacy violation made particularly by the GAFAM. That's why I support open source and open projects !
-        </p>
-      </div>
-      <div class="media pink">
-        <i>👊</i>
-      </div>
-    </article>
+          <div class="content">
+            <h2>My engagements</h2>
+            <p>
+              I'm always trying to use open source and privacy respectives tools. That’s why I host alternatives to GAFAM's services on my server.
+              I use Linux (Ubuntu) 90% of the time to code and work and only use windows to play games. Linux is today a good alternative to windows, it’s free, open source and powerful !
+              I can't stand data privacy violation made particularly by the GAFAM. That's why I support open source and open projects !
+            </p>
+          </div>
+          <div class="media pink">
+            <i>👊</i>
+          </div>
+        </article>
     <article>
       <div class="media purple">
         <i>💾</i>
@@ -72,9 +77,3 @@
     </article>
   </section>
 </template>
-
-<script>
-export default {
-  name: 'AboutSection'
-}
-</script>

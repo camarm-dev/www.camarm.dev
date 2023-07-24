@@ -1,5 +1,5 @@
 const observerOptions = {
-  root: this.$el,
+  root: document.body,
   threshold: 1.0
 }
 const navbar = document.querySelector('.nav')

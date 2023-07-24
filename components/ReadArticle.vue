@@ -24,13 +24,12 @@
 </template>
 
 <script>
-
-export default {
+export default defineComponent({
   name: 'ReadArticle',
   props: {
     articleData: JSON
   }
-}
+})
 </script>
 
 <style scoped>

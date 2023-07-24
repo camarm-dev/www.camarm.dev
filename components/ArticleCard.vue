@@ -20,12 +20,12 @@
 </template>
 
 <script>
-export default {
+export default defineComponent({
   name: 'ArticleCard',
   props: {
     articleData: JSON
   }
-}
+})
 </script>
 
 <style scoped>

@@ -1,5 +1,5 @@
 <template>
-  <div class="nav">
+  <div ref="navbar" class="nav">
     <div class="item logo">
       <a href="/">
         <LogoLarge />
@@ -36,7 +36,7 @@
         <a href="mailto:armand@camponovo.xyz" target="_blank"><i class="fas fa-envelope" /></a>
       </div>
     </div>
-    <div v-expand class="burger">
+    <div @click="expandNavbar()" class="burger">
       <span />
       <span />
       <span />
@@ -45,18 +45,12 @@
 </template>
 
 <script>
-import Vue from 'vue'
-
-Vue.directive('expand', {
-  inserted: (el) => {
-    el.addEventListener('click', function (event) {
-      event.preventDefault()
-      el.parentElement.classList.toggle('expanded')
-    })
+export default defineComponent({
+  name: 'NavBar',
+  methods: {
+    expandNavbar() {
+      this.$refs.navbar.classList.toggle('expanded')
+    }
   }
 })
-
-export default {
-  name: 'NavBar'
-}
 </script>

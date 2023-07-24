@@ -17,10 +17,10 @@
 <script>
 import projects from '@/assets/data/projects.json'
 
-export default {
+export default defineComponent({
   name: 'WorkSection',
   data () {
     return projects
   }
-}
+})
 </script>
