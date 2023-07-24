@@ -1,13 +1,13 @@
 <script lang="ts">
-import NavBar from "~/components/NavBar.vue";
-import ContactForm from "~/components/ContactForm.vue";
-import AcknowledgementsSection from "~/components/AcknowledgementsSection.vue";
+import NavBar from '~/components/NavBar.vue'
+import ContactForm from '~/components/ContactForm.vue'
+import AcknowledgementsSection from '~/components/AcknowledgementsSection.vue'
 
 export default {
   name: 'ContactPage',
-  components: {AcknowledgementsSection, ContactForm, NavBar},
+  components: { AcknowledgementsSection, ContactForm, NavBar },
   methods: {
-    open(url: string) {
+    open (url: string) {
       window.open(url)
     }
   }

@@ -1,6 +1,6 @@
 export default defineNuxtConfig({
   app: {
-  head: {
+    head: {
       title: '@camarm - French Junior Developer',
       meta: [
         { charset: 'utf-8' },

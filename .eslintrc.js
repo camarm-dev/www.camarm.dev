@@ -6,8 +6,7 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:nuxt/recommended',
-    'plugin:vue/recommended'
+    '@nuxtjs/eslint-config-typescript'
   ],
   plugins: [
     'jest'

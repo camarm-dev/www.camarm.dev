@@ -29,7 +29,7 @@
 <script>
 export default defineComponent({
   name: 'LandingSection',
-  created() {
+  created () {
     this.loadJS()
   },
   methods: {

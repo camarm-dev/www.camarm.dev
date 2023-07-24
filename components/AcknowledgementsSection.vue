@@ -52,10 +52,10 @@
 
 <script>
 
-import LogoLarge from "~/components/LogoLarge.vue";
+import LogoLarge from '~/components/LogoLarge.vue'
 
 export default defineComponent({
   name: 'AcknowledgementsSection',
-  components: {LogoLarge}
+  components: { LogoLarge }
 })
 </script>

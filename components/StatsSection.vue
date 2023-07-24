@@ -36,11 +36,11 @@ export default defineComponent({
     }
   },
   fetchOnServer: false,
-  mounted() {
+  mounted () {
     this.fetchData()
   },
   methods: {
-    async fetchData() {
+    async fetchData () {
       const url = this.$config.public.backend + '/statistics'
       const response = await fetch(url).then(res => res.json())
       const stats = response.data
