@@ -57,5 +57,5 @@ docker-compose up
 ## Rebuild a project
 (choice: www.camarm.dev / api.camarm.fr)
 ```shell
-docker-compose build [project]
+docker-compose build --no-cache [project]
 ```
