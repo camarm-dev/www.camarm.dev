@@ -1,5 +1,8 @@
 <template>
-  <div ref="navbar" class="nav">
+  <div
+    ref="navbar"
+    class="nav"
+  >
     <div class="item logo">
       <a href="/">
         <LogoLarge />
@@ -27,16 +30,28 @@
         </NuxtLink>
       </div>
       <div class="item square gh">
-        <a href="https://github.com/camarm-dev" target="_blank"><i class="fab fa-github" /></a>
+        <a
+          href="https://github.com/camarm-dev"
+          target="_blank"
+        ><i class="fab fa-github" /></a>
       </div>
       <div class="item square gl">
-        <a href="https://gitlab.com/camarm" target="_blank"><i class="fab fa-gitlab" /></a>
+        <a
+          href="https://gitlab.com/camarm"
+          target="_blank"
+        ><i class="fab fa-gitlab" /></a>
       </div>
       <div class="item square ml">
-        <a href="mailto:armand@camponovo.xyz" target="_blank"><i class="fas fa-envelope" /></a>
+        <a
+          href="mailto:armand@camponovo.xyz"
+          target="_blank"
+        ><i class="fas fa-envelope" /></a>
       </div>
     </div>
-    <div @click="expandNavbar()" class="burger">
+    <div
+      class="burger"
+      @click="expandNavbar()"
+    >
       <span />
       <span />
       <span />
@@ -45,8 +60,11 @@
 </template>
 
 <script>
+import LogoLarge from "~/components/LogoLarge.vue";
+
 export default defineComponent({
   name: 'NavBar',
+  components: {LogoLarge},
   methods: {
     expandNavbar() {
       this.$refs.navbar.classList.toggle('expanded')

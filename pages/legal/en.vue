@@ -45,10 +45,40 @@
       <h2 id="licenses-and-credits">
         Licenses and credits
       </h2>
-      <p>The texts, images, gifs and photos presented on the site have been created, unless otherwise stated, by Armand Camponovo, who authorizes their free use under the <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative Commons CC BY-NC-ND 3.0 EN <img style="margin-top : auto ; margin-bottom : auto ; height : 90% ;" alt="CC Logo" height="50" width="100" src="https://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png"></a> license. If you wish to reproduce all or part of these productions, you must credit the author, make no commercial use of them and not modify them.</p>
-      <p>The &quot;Amiko&quot; font used throughout the pages of this website is distributed by <a href="www.impallari.com">Impallari Type</a>, under the <a href="http://scripts.sil.org/OFL">SIL Open Font License, Version 1.1</a> license.</p>
-      <p>The website was developed by CAMARM Inc, its source code is open under <a href="http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html">CeCILLv2.1 license</a> and can be viewed on <a href="https://github.com/camarm-dev/www.camarm.dev">GitHub</a>.<br>This site was developed in <a href="https://nuxtjs.org">NuxtJs</a><a href="https://nuxtjs.org">&nbsp;<img style="margin-top: auto; margin-bottom: auto; height: 90%;" alt="Nuxt Logo" height="15" src="https://v2.nuxt.com/_nuxt/icons/icon_64x64.6dcbd4.png" width="15"></a> &amp; <a href="https://fastapi.tiangolo.com/">Fastapi</a><a href="https://fastapi.tiangolo.com/">&nbsp;<img style="margin-top: auto; margin-bottom: auto; height: 90%;" alt="Fastapi Logo" height="15" src="https://fastapi.tiangolo.com/img/favicon.png" width="15"></a>.</p>
-      <p>This legal notice is freely adapted from the template provided by <a href="https://www.webexpress.fr/contact/mentions-legales/">WebExpress version 2.0 <img style="margin-top: auto; margin-bottom: auto; height: 90%;" alt="CC Logo" height="50" width="100" src="https://www.webexpress.fr/wp-content/uploads/2015/09/webexpress-logo-v3-vecto.svg"></a>.</p>
+      <p>
+        The texts, images, gifs and photos presented on the site have been created, unless otherwise stated, by Armand Camponovo, who authorizes their free use under the <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative Commons CC BY-NC-ND 3.0 EN <img
+          style="margin-top : auto ; margin-bottom : auto ; height : 90% ;"
+          alt="CC Logo"
+          height="50"
+          width="100"
+          src="https://mirrors.creativecommons.org/presskit/logos/cc.logo.large.png"
+        ></a> license. If you wish to reproduce all or part of these productions, you must credit the author, make no commercial use of them and not modify them.
+      </p>
+      <p>The &quot;Amiko&quot; font used throughout the pages of this website is distributed by <a href="https://www.impallari.com">Impallari Type</a>, under the <a href="http://scripts.sil.org/OFL">SIL Open Font License, Version 1.1</a> license.</p>
+      <p>
+        The website was developed by CAMARM Inc, its source code is open under <a href="http://www.cecill.info/licences/Licence_CeCILL_V2.1-fr.html">CeCILLv2.1 license</a> and can be viewed on <a href="https://github.com/camarm-dev/www.camarm.dev">GitHub</a>.<br>This site was developed in <a href="https://nuxtjs.org">NuxtJs</a><a href="https://nuxtjs.org">&nbsp;<img
+          style="margin-top: auto; margin-bottom: auto; height: 90%;"
+          alt="Nuxt Logo"
+          height="15"
+          src="https://v2.nuxt.com/_nuxt/icons/icon_64x64.6dcbd4.png"
+          width="15"
+        ></a> &amp; <a href="https://fastapi.tiangolo.com/">Fastapi</a><a href="https://fastapi.tiangolo.com/">&nbsp;<img
+          style="margin-top: auto; margin-bottom: auto; height: 90%;"
+          alt="Fastapi Logo"
+          height="15"
+          src="https://fastapi.tiangolo.com/img/favicon.png"
+          width="15"
+        ></a>.
+      </p>
+      <p>
+        This legal notice is freely adapted from the template provided by <a href="https://www.webexpress.fr/contact/mentions-legales/">WebExpress version 2.0 <img
+          style="margin-top: auto; margin-bottom: auto; height: 90%;"
+          alt="CC Logo"
+          height="50"
+          width="100"
+          src="https://www.webexpress.fr/wp-content/uploads/2015/09/webexpress-logo-v3-vecto.svg"
+        ></a>.
+      </p>
       <h2 id="links">
         Links
       </h2>
@@ -84,7 +114,10 @@
 </template>
 
 <script lang="ts">
+import NavBar from "~/components/NavBar.vue";
+
 export default {
-  name: 'LegalPage'
+  name: 'LegalPage',
+  components: {NavBar}
 }
 </script>

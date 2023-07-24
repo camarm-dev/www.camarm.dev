@@ -11,13 +11,13 @@ export default {
       articles: []
     }
   },
+  mounted() {
+    this.fetchArticles()
+  },
   methods: {
     async fetchArticles() {
       this.articles = await fetch('https://dev.to/api/articles?username=camarm').then(resp => resp.json())
     }
-  },
-  mounted() {
-    this.fetchArticles()
   }
 }
 </script>
@@ -28,7 +28,11 @@ export default {
       Blog <span class="emoji">📝</span>
     </h1>
     <div class="articles">
-      <ArticleCard v-for="article in $data.articles" :key="article.id" :article-data="article" />
+      <ArticleCard
+        v-for="article in $data.articles"
+        :key="article.id"
+        :article-data="article"
+      />
     </div>
     <AcknowledgementsSection />
   </div>

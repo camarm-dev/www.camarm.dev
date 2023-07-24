@@ -36,6 +36,9 @@ export default defineComponent({
     }
   },
   fetchOnServer: false,
+  mounted() {
+    this.fetchData()
+  },
   methods: {
     async fetchData() {
       const url = this.$config.public.backend + '/statistics'
@@ -45,9 +48,6 @@ export default defineComponent({
       this.commit_count = stats.commit_count
       this.repo_count = stats.repo_count
     }
-  },
-  mounted() {
-    this.fetchData()
   }
 })
 </script>

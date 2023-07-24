@@ -2,7 +2,10 @@
   <div class="landing">
     <div class="content">
       <div class="image">
-        <img src="" alt="Armand / camarm">
+        <img
+          src=""
+          alt="Armand / camarm"
+        >
       </div>
       <h1>Hey <span class="hand"><span class="waving">👋</span></span>,</h1>
       <h1>
