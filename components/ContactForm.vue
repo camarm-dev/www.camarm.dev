@@ -60,12 +60,12 @@ export default {
         },
         body: JSON.stringify(body)
       }
-      const response = await fetch(url, options).then(res => res.json())
-      if (response.code === 200) {
+      const response = await fetch(url, options)
+      if (response.status === 200) {
         alert('Message sent !')
-      } else if (response.code === 401) {
+      } else if (response.status === 401) {
         alert('Sorry, you have already sent an email using this form. Please contact me directly by email now :) !')
-      } else if (response.code === 422) {
+      } else if (response.status === 422) {
         alert('Form was not filled correctly !')
       } else {
         alert('Error occurred while sending message !')
