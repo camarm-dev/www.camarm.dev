@@ -1,7 +1,7 @@
 <script lang="ts">
-import NavBar from '~/components/NavBar.vue'
-import ArticleCard from '~/components/ArticleCard.vue'
-import AcknowledgementsSection from '~/components/AcknowledgementsSection.vue'
+import NavBar from '@/components/NavBar.vue'
+import ArticleCard from '@/components/ArticleCard.vue'
+import AcknowledgementsSection from '@/components/AcknowledgementsSection.vue'
 
 export default {
   name: 'BlogPage',

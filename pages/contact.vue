@@ -1,7 +1,7 @@
 <script lang="ts">
-import NavBar from '~/components/NavBar.vue'
-import ContactForm from '~/components/ContactForm.vue'
-import AcknowledgementsSection from '~/components/AcknowledgementsSection.vue'
+import NavBar from '@/components/NavBar.vue'
+import ContactForm from '@/components/ContactForm.vue'
+import AcknowledgementsSection from '@/components/AcknowledgementsSection.vue'
 
 export default {
   name: 'ContactPage',

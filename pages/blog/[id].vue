@@ -1,7 +1,7 @@
 <script lang="ts">
 import { useRoute } from 'nuxt/app'
-import NavBar from '~/components/NavBar.vue'
-import ReadArticle from '~/components/ReadArticle.vue'
+import NavBar from '@/components/NavBar.vue'
+import ReadArticle from '@/components/ReadArticle.vue'
 
 export default {
   name: 'ReadArticlePage',
