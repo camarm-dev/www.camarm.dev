@@ -28,12 +28,6 @@
 
 <script>
 export default defineComponent({
-  name: 'LandingSection',
-  created () {
-    this.loadJS()
-  },
-  methods: {
-    loadJS: () => { import('assets/js/landing') }
-  }
+  name: 'LandingSection'
 })
 </script>
