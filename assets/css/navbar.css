@@ -1,6 +1,6 @@
 .nav {
   transition: .5s ease-in-out;
-  width: 100%;
+  width: 100vw;
   height: 6em;
   max-height: 6em;
   display: flex;
