@@ -372,3 +372,9 @@ svg.purple .color {
   }
 }
 
+@media (max-width: 1250px) {
+  .about article .content, .about article .media {
+    width: 50%;
+    max-width: max-content;
+  }
+}
