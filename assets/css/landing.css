@@ -87,7 +87,6 @@
   border-radius: 11px;
   transition: 5s ease-in-out;
   animation: changingPhoto 10s ease-in-out infinite;
-  border: 2px solid var(--grey);
 }
 
 @keyframes changingPhoto {
