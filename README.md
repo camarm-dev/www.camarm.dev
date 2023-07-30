@@ -7,14 +7,13 @@ This repository contains th camarm's website code.
 This website is available at https://www.camarm.dev.
 
 ## TODOS
-- [ ] Intersection observer bugged
+- [x] Intersection observer bugged
 - [ ] Magnetic scroll
 - [ ] Stick the footer to bottom
 
 ## Documentation
 
 ### Configuration
-// TODO:  .env values aren't used yet ! 
 
 `.env`
 ```dotenv
