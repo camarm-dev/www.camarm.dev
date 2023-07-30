@@ -1,9 +1,10 @@
-import Component from 'vue'
+import { describe, it, expect } from 'vitest'
+import { shallowMount } from '@vue/test-utils'
 import WorkPage from '@/pages/work.vue'
 
 describe('Work page', () => {
-  test('is a page', () => {
-    expect(WorkPage._isVue)
-    expect(WorkPage instanceof Component)
+  it('shows my work', () => {
+    const page = shallowMount(WorkPage)
+    expect(page.text()).toContain('Work ☕')
   })
 })

@@ -1,9 +1,10 @@
-import Component from 'vue'
+import { describe, it, expect } from 'vitest'
+import { mount } from '@vue/test-utils'
 import WTFPage from '@/pages/windows.vue'
 
 describe('Troll page', () => {
-  test('is a page', () => {
-    expect(WTFPage._isVue)
-    expect(WTFPage instanceof Component)
+  it('shows a troll message', () => {
+    const page = mount(WTFPage)
+    expect(page.text()).toContain('Did you really searched windows')
   })
 })

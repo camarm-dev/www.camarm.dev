@@ -1,9 +1,16 @@
-import Component from 'vue'
+import { describe, it, expect } from 'vitest'
+import { mount } from '@vue/test-utils'
 import ContactPage from '@/pages/contact.vue'
 
 describe('ContactPage page', () => {
-  test('is a page', () => {
-    expect(ContactPage._isVue)
-    expect(ContactPage instanceof Component)
+  const page = mount(ContactPage)
+  it('shows a contact form', () => {
+    const form = page.find('form.contact')
+    expect(form).not.toBeNull()
+  })
+
+  it('shows links to social medias', () => {
+    const socials = page.find('.socials')
+    expect(socials.element.children).toHaveLength(5)
   })
 })

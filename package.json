@@ -10,14 +10,21 @@
     "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
     "lint": "yarn lint:js",
     "lintfix": "yarn lint:js --fix",
-    "test": "jest"
+    "test": "vitest run --silent"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.22.9",
     "@npmcli/fs": "~3.1.0",
+    "@nuxt/test-utils": "^3.6.5",
     "chokidar": "~3.5.3",
     "consolidate": "~1.0.1",
     "core-js": "^3.25.3",
+    "happy-dom": "^10.5.2",
+    "jest-transform-stub": "^2.0.0",
     "nuxt": "^3.6.5",
+    "nuxt-vitest": "^0.10.2",
+    "vitest": "^0.33.0",
+    "vitest-environment-nuxt": "^0.10.2",
     "vue": "^3.3.4",
     "vue-server-renderer": "^2.7.14",
     "vue-template-compiler": "^2.7.14"
@@ -31,13 +38,12 @@
     "@nuxtjs/eslint-module": "^4.1.0",
     "@vue/test-utils": "^2.4.1",
     "@vue/vue3-jest": "^29.2.4",
-    "babel-core": "6.26.3",
+    "babel-core": "^6.26.3",
     "babel-jest": "^29.6.1",
     "eslint": "^8.45.0",
     "eslint-plugin-jest": "^27.2.3",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.15.1",
-    "jest": "^29.1.2",
     "jest-environment-jsdom": "^29.1.2",
     "ts-jest": "^29.1.1"
   }
