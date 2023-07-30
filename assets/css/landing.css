@@ -277,7 +277,7 @@ svg.purple .color {
   content: "";
   height: .08em;
   position: relative;
-  transform: translate(0, 1.5em);
+  transform: translate(0, 1.35em);
   background-color: var(--white);
   opacity: 0.8;
   transition: .3s ease-in-out;
@@ -292,6 +292,7 @@ svg.purple .color {
   background-color: var(--black);
   opacity: 1;
   transition: .3s ease-in-out;
+  transform: translate(0, -.15em);
   z-index: 20 ;
 }
 
@@ -324,6 +325,7 @@ svg.purple .color {
 }
 
 .about article .content p {
+  margin-top: .2em;
   font-size: 1.5em;
   text-align: justify;
   font-weight: 100;
