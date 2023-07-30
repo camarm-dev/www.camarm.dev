@@ -1,35 +1,13 @@
 function addState (el, state) {
-  el.classList.add(state || 'active')
+  setTimeout(() => {
+    el.classList.add(state || 'active')
+  }, 500)
 }
 
 function removeState (el, state) {
-  el.classList.remove(state || 'active')
-}
-
-function startIntersectionObserver (options, data) {
-  if (location.pathname !== '/') {
-    document.body.classList.add('animated')
-  }
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      console.log(entry)
-      if (entry.isIntersecting) {
-        if (entry.target.textContent === data.firstSection.textContent) {
-          removeState(data.navbar, 'active')
-        } else {
-          addState(entry.target, 'active')
-        }
-      } else {
-        if (entry.target.textContent === data.firstSection.textContent) {
-          addState(data.navbar, 'active')
-        } else {
-          removeState(entry.target, 'active')
-        }
-      }
-    })
-  }, options)
-  observer.observe(data.firstSection)
-  data.sections.forEach(section => observer.observe(section))
+  setTimeout(() => {
+    el.classList.remove(state || 'active')
+  }, 500)
 }
 
 function scrollTo(el) {
