@@ -11,6 +11,7 @@ RUN npm i -g npm@latest
 
 # Copy the app, note .dockerignore
 COPY . /usr/src/website/
+RUN sed -i "BACKEND=https://api.camarm.fr" .env
 RUN npm install
 RUN npm run build
 
