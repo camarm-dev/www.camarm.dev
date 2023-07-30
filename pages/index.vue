@@ -6,7 +6,7 @@ import AcknowledgementsSection from '@/components/AcknowledgementsSection.vue'
 </script>
 
 <template>
-  <div>
+  <div id="root-component">
     <NavBar />
     <LandingSection />
     <AboutSection />

@@ -12,12 +12,12 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css' },
         { rel: 'preload', type: 'image/x-icon', href: '@/assets/images/profil-armand.png' }
       ],
       script: [
         // <script src="https://kit.fontawesome.com/628c8d2499.js" crossOrigin="anonymous"></script>
-        { src: 'https://kit.fontawesome.com/628c8d2499.js', crossOrigin: 'anonymous' }
+        { src: 'https://kit.fontawesome.com/628c8d2499.js', crossOrigin: 'anonymous' },
+        { src: '/landing.js', body: true, defer: true }
       ]
     }
   },
@@ -33,10 +33,6 @@ export default defineNuxtConfig({
   buildModules: [
     '@nuxt/typescript-build'
   ],
-
-  swiper: {
-    modules: ['mousewheel']
-  },
 
   runtimeConfig: {
     public: {
