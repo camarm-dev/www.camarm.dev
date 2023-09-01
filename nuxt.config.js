@@ -12,12 +12,14 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'preload', type: 'image/x-icon', href: '@/assets/images/profil-armand.png' }
+        { rel: 'preload', type: 'image/x-icon', href: '@/assets/images/profil-armand.png' },
+        { rel: 'preload', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js' },
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' }
       ],
       script: [
         // <script src="https://kit.fontawesome.com/628c8d2499.js" crossOrigin="anonymous"></script>
-        { src: 'https://kit.fontawesome.com/628c8d2499.js', crossOrigin: 'anonymous' },
-        { src: '/landing.js', body: true, defer: true }
+        { src: '/landing.js', body: true, defer: true },
+        { src: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js', defer: true, body: true }
       ]
     }
   },

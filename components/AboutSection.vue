@@ -83,5 +83,19 @@ export default defineComponent({
         <i>🔮</i>
       </div>
     </article>
+    <article>
+      <div class="content">
+        <h2>
+          Discover my
+          <NuxtLink to="/work">
+            work
+          </NuxtLink>
+          .
+        </h2>
+      </div>
+      <button id="to-top">
+        <i class="fas fa-arrow-up fa-2x" />
+      </button>
+    </article>
   </section>
 </template>

@@ -1,13 +1,13 @@
 .landing {
-  height: 90vh;
   padding-top: 10vh;
-  width: max-content;
-  margin: auto auto 20vh;
   text-align: left;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: calc(100vh - 5em);
+  margin: 0;
+  width: 100%;
 }
 
 .landing .top {
@@ -202,6 +202,25 @@ svg.purple .color {
   stroke: var(--purple);
 }
 
+#to-top {
+  transition: .5s ease-in-out;
+  padding: .2em;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  background-color: var(--blue);
+  box-shadow: 0 0 15px var(--blue);
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: var(--black);
+}
+
+#to-top:hover {
+  scale: 1.1;
+  box-shadow: 0 0 30px var(--blue);
+}
+
 .about .link {
   text-align: center;
   position: relative;
@@ -211,19 +230,30 @@ svg.purple .color {
 }
 
 .about {
-  width: 90%;
+  width: 100vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 100vh;
+  overflow-y: scroll;
   margin: auto;
-  padding-left: 5em;
-  padding-right: 5em;
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: start;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.about::-webkit-scrollbar {
+  display: none;
 }
 
 .about article {
+  scroll-snap-align: start;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 35em;
-  height: 50vh;
+  height: calc(100vh - 5em);
+  padding-top: 10em;
 }
 
 .about article.first .media {
