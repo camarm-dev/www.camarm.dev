@@ -43,7 +43,7 @@
       </div>
       <div class="item square ml">
         <a
-          href="mailto:armand@camponovo.xyz"
+          href="mailto:contact@camarm.dev"
           target="_blank"
         ><i class="fas fa-envelope" /></a>
       </div>

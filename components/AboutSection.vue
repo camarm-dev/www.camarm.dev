@@ -27,7 +27,7 @@ export default defineComponent({
         <p>
           I wanna use and administrate servers but also code in my future job. I really enjoy making these on my free
           time and absolutely want to make them my job.<br>
-          Actually in third grade, I want to make an informatics BUT after the high school. I’m also hyped to study at
+          Actually in tenth grade, I want to make an informatics BUT after the high school. I’m also hyped to study at
           school 42. I think the devops job is a good option to balance between servers and code.
         </p>
       </div>
@@ -60,7 +60,7 @@ export default defineComponent({
           As database, I mostly use Mongodb and I can't separate it. By working on Linux, I know this OS and the use of
           the shell.
           With my server I learnt how to properly deploy and maintain applications and their load management.
-          I'm currently learning nuxt.js and Rust.
+          I'm currently learning Ruby and Rust.
           You can check
           <NuxtLink to="/work">
             my projects
@@ -84,13 +84,25 @@ export default defineComponent({
       </div>
     </article>
     <article>
+      <div class="media pink">
+        <i>👥</i>
+      </div>
+      <div class="content">
+        <h2>Contact me</h2>
+        <p>
+          I'm not a professional but I can make you websites, webapps ect... for 8€ per hour.
+          I can also sell hosting services (variable price). I'm also available if you want to collaborate with me.
+          So don't hesitate to contact me at <a href="mailto:contact@camarm.dev">contact@camarm.dev</a>
+        </p>
+      </div>
+    </article>
+    <article>
       <div class="content">
         <h2>
           Discover my
           <NuxtLink to="/work">
             work
           </NuxtLink>
-          .
         </h2>
       </div>
       <button id="to-top">

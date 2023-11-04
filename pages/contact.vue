@@ -31,7 +31,7 @@ export default {
       <button class="gh" @click="open('https://github.com/camarm-dev')">
         Github&nbsp;<i class="fab fa-github" />
       </button>
-      <button class="" @click="open('mailto:armand@camponovo.xyz')">
+      <button class="" @click="open('mailto:contact@camarm.dev')">
         Email&nbsp;<i class="fas fa-envelope" />
       </button>
       <button class="dt" @click="open('https://dev.to/camarm')">

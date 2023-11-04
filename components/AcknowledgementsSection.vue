@@ -20,7 +20,7 @@
           target="_blank"
         >Dev</a>
         <a
-          href="mailto:armand@camponovo.xyz"
+          href="mailto:contact@camarm.dev"
           target="_blank"
         >Email</a>
       </div>
@@ -30,6 +30,10 @@
           href="https://uptime.camarm.fr"
           target="_blank"
         >Network status</a>
+        <a
+          href="https://api.camarm.fr/login"
+          target="_blank"
+        >Customer Panel</a>
       </div>
       <div>
         <p>Legal</p>

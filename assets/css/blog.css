@@ -27,7 +27,7 @@ pre code {
   max-width: 50em;
   width: 35em;
   margin: 1em;
-  border: 3px solid var(--black-alt);
+  border: 0.55px solid var(--white-25);
   transition: .5s ease-in-out;
 }
 

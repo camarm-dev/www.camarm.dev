@@ -1,6 +1,85 @@
 {
   "projects": [
     {
+    "name": "Avantages Jeunes Mobile",
+      "class": "white",
+      "images": {
+        "default": "/images/work/AJC.png",
+        "alternative": "/images/work/AJC.gif"
+      },
+      "description": "Avantages Jeunes Mobile is a mobile app to browse advantages by connecting your Avantages Jeunes card. It's a mobile app on top of an existing API.",
+      "links": [
+        {
+          "icon": "fab fa-github",
+          "href": "https://github.com/camarm-dev/bfc-avantages-jeunes-mobile",
+          "class": "gh"
+        },
+        {
+          "icon": "fab fa-google-play",
+          "href": "https://f-droid.org",
+          "class": "gh"
+        }
+      ]
+    },
+    {
+    "name": "Remède",
+      "class": "",
+      "images": {
+        "default": "/images/work/remede.png",
+        "alternative": "/images/work/remede.gif"
+      },
+      "description": "Remède is a french and open source dictionary. It's a mobile app. It includes a grammar and orthography corrector. It provides an open public API too.",
+      "links": [
+        {
+          "icon": "fab fa-github",
+          "href": "https://github.com/camarm-dev/remede",
+          "class": "gh"
+        },
+        {
+          "icon": "fab fa-google-play",
+          "href": "https://f-droid.org",
+          "class": "gh"
+        }
+      ]
+    },
+    {
+    "name": "Dule",
+      "class": "",
+      "images": {
+        "default": "/images/work/dule.png",
+        "alternative": "/images/work/dule.gif"
+      },
+      "description": "Dule is your new companion. It's a free and open source mobile app to manage your life ! All your tasks, notes and events in one app ! You can also schedule reminders.",
+      "links": [
+        {
+          "icon": "fab fa-github",
+          "href": "https://github.com/withdule/dule",
+          "class": "gh"
+        },
+        {
+          "icon": "fab fa-google-play",
+          "href": "https://f-droid.org",
+          "class": "gh"
+        }
+      ]
+    },
+    {
+    "name": "Dimitri Rey Website",
+      "class": "white",
+      "images": {
+        "default": "/images/work/DRWeb.png",
+        "alternative": "/images/work/DRWeb_projects.png"
+      },
+      "description": "Thanks to Dimitri Rey who have trusted me and have led me build his website. I can make you one like that so contact me at contact@camarm.dev !",
+      "links": [
+        {
+          "icon": "fas fa-globe",
+          "href": "https://dimitri-rey.com",
+          "class": "glow"
+        }
+      ]
+    },
+    {
       "name": "Push 2 Prod",
       "images": {
         "default": "https://github.com/camarm-dev/p2p/blob/main/.github/logo.png?raw=true",
@@ -24,7 +103,7 @@
       "description": "Blaugue is a blog I made for my family to get memories of holidays and travels !\nIt's open source and currently being rebuilt...",
       "links": [
         {
-          "icon": "fas fa-link",
+          "icon": "fas fa-globe",
           "href": "http://blaugue.camponovo.xyz",
           "class": "glow"
         },
@@ -44,7 +123,7 @@
       "description": "Ondine CAMPONOVO's website is a portfolio for an artist. It has a dashboard page to add creations articles, classed by labels.\n<span class=\"emoji\">⚠️</span>&nbsp;Currently offline",
       "links": [
         {
-          "icon": "fas fa-link",
+          "icon": "fas fa-globe",
           "href": "http://ondine.camponovo.art",
           "class": "glow"
         },
@@ -64,7 +143,7 @@
       "description": "Elevedirect is an open source Ecoledirect client, with a new interface, and news functionalities built by a student for students.\n<span class=\"emoji\">⚠️</span>&nbsp;Unofficial product !",
       "links": [
         {
-          "icon": "fas fa-link",
+          "icon": "fas fa-globe",
           "href": "https://elevedirect.tk",
           "class": "glow"
         },
@@ -104,7 +183,7 @@
       "description": "La Plante Qr is a school project, that sold kit to learn how to garden. By scanning your kit's Qr code, you will access to sheets about your plant. You can also take pictures of it and download a slideshow !",
       "links": [
         {
-          "icon": "fas fa-link",
+          "icon": "fas fa-globe",
           "href": "https://planteqr.eu.org",
           "class": "glow"
         },
@@ -125,7 +204,7 @@
       "description": "A weather station that collect temperature and humidity from a raspberry pi and generate charts and analyses on a website.\n<span class=\"emoji\">⚠️</span>&nbsp;Currently offline",
       "links": [
         {
-          "icon": "fas fa-link",
+          "icon": "fas fa-globe",
           "href": "https://meteo.camarm.fr",
           "class": "glow"
         }
@@ -141,7 +220,7 @@
       "description": "A Babelio like library to store, comment and track read books. It has a light/dark mode, a filter function and an complete interface to manage lists and authors.",
       "links": [
         {
-          "icon": "fas fa-link",
+          "icon": "fas fa-globe",
           "href": "https://cocoyoyo-librairie.camponovo.space/",
           "class": "glow"
         }

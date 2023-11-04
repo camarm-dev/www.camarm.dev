@@ -115,7 +115,7 @@ footer.acknowledgements {
   margin-top: 5em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  border-top: 2px solid var(--grey);
+  border-top: 0.55px solid var(--grey);
   background-color: var(--black-alt);
   position: relative;
   bottom: 0;
