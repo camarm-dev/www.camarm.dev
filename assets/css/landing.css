@@ -230,9 +230,12 @@ svg.purple .color {
 }
 
 .about {
-  width: 80%;
-  height: 100vh;
+  width: 90%;
+  max-width: 880px;
   margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
 }
 
 .about article {
@@ -240,130 +243,16 @@ svg.purple .color {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10em;
-}
-
-.about article .content, .about article .media {
-  width: 35%;
-}
-
-.about article .media {
-  padding: 0;
-  overflow: hidden;
-  max-height: 100%;
-  max-width: 30em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 1em;
 }
 
 i, .hand .waving {
   font-family: "Emoji", sans-serif !important;
 }
 
-.about article .media img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.about article .content h2:before {
-  width: 0;
-  display: block;
-  content: "";
-  height: .08em;
-  position: relative;
-  transform: translate(0, 1.35em);
-  background-color: var(--white);
-  opacity: 0.8;
-  transition: .3s ease-in-out;
-}
-
-.about article .content h2:after {
-  width: 0;
-  display: block;
-  content: "";
-  height: .15em;
-  position: relative;
-  background-color: var(--black);
-  opacity: 1;
-  transition: .3s ease-in-out;
-  transform: translate(0, -.15em);
-  z-index: 20 ;
-}
-
-.about article.active .content h2:before {
-  width: 100%;
-  animation: slidingUnderline 2s;
-}
-
-@keyframes slidingUnderline {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-.about article.active .content h2:after {
-  width: 100%;
-  animation: slidingUnderlineBlack 1s 1s;
-}
-
-@keyframes slidingUnderlineBlack {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-.about article.active .content p {
-  animation: 1.5s slide .1s;
-}
-
-
-@keyframes slide {
-  from {
-    transform: translate(20%);
-    opacity: 0;
-  }
-  to {
-    transform: translate(0, 0);
-    opacity: 1;
-  }
-}
-
 @media (max-width: 1024px) {
   .about {
-    width: 100%;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-  }
-
-  .about article {
     flex-direction: column;
   }
-
-  .about article .content {
-    order: 0;
-  }
-
-  .about article .media {
-    order: 1;
-    overflow: visible;
-    margin-top: 1em;
-  }
-
-  .about article .content, .about article .media {
-    width: 100%;
-  }
 }
 
-@media (max-width: 1250px) {
-  .about article .content, .about article .media {
-    width: 50%;
-    max-width: max-content;
-  }
-}
