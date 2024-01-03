@@ -60,6 +60,10 @@ a {
   text-decoration: 2px var(--blue) underline;
 }
 
+b {
+  font-weight: bold;
+}
+
 .col {
   display: flex;
   flex-direction: column;
@@ -68,6 +72,26 @@ a {
 
 .col.half {
   width: 50%;
+}
+
+.tags {
+  padding-top: .1em;
+  padding-bottom: .5em;
+  display: inline-flex;
+  gap: 10px;
+}
+
+.tags span {
+  background-color: var(--grey);
+  border-radius: 3px;
+  color: var(--black);
+  font-size: .8em;
+  padding: .1em;
+}
+
+.tags span:hover {
+  background-color: var(--white-25);
+  cursor: pointer;
 }
 
 .drawer {
