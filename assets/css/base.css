@@ -104,6 +104,22 @@ a {
 }
 
 @media (max-width: 1024px) {
+  .col.half {
+    width: 100%;
+  }
+
+  .drawer .title {
+    font-size: 1.3em;
+  }
+
+  .drawer p {
+    font-size: 1em;
+  }
+
+  .drawer.media {
+    display: none;
+  }
+
   .page-title {
     padding-left: .5em;
   }
