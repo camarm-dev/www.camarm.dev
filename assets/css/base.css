@@ -60,6 +60,30 @@ a {
   text-decoration: 2px var(--blue) underline;
 }
 
+.drawer {
+  padding: 1em;
+  height: 100%;
+  border: .55px var(--black-dark-alt) solid;
+  background-color: var(--black-alt);
+  border-radius: 12px;
+  font-family: ui-monospace, monospace, sans-serif;
+  font-size: 1em;
+}
+
+.drawer .title {
+  font-family: "Amiko", sans-serif;
+  margin: 0 0 .5em;
+  font-size: 1.6em;
+  color: var(--white-alt);
+}
+
+.drawer p {
+  margin: 0 !important;
+  color: var(--grey);
+  font-weight: 100;
+  font-size: 1.1em;
+}
+
 @media (max-width: 1024px) {
   .page-title {
     padding-left: .5em;
