@@ -60,9 +60,18 @@ a {
   text-decoration: 2px var(--blue) underline;
 }
 
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.col.half {
+  width: 50%;
+}
+
 .drawer {
   padding: 1em;
-  height: 100%;
   border: .55px var(--black-dark-alt) solid;
   background-color: var(--black-alt);
   border-radius: 12px;
