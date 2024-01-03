@@ -93,6 +93,16 @@ a {
   font-size: 1.1em;
 }
 
+.drawer.media {
+  padding: 0;
+}
+
+.drawer.media img {
+  border-radius: 12px;
+  width: 100%;
+  object-fit: cover;
+}
+
 @media (max-width: 1024px) {
   .page-title {
     padding-left: .5em;
