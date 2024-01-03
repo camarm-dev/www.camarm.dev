@@ -230,29 +230,16 @@ svg.purple .color {
 }
 
 .about {
-  width: 100vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  width: 80%;
   height: 100vh;
-  overflow-y: scroll;
   margin: auto;
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.about::-webkit-scrollbar {
-  display: none;
 }
 
 .about article {
-  scroll-snap-align: start;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: calc(100vh - 5em);
   padding-top: 10em;
 }
 
@@ -263,7 +250,6 @@ svg.purple .color {
 
 .about article .content, .about article .media {
   width: 35%;
-  height: 25em;
 }
 
 .about article .media {
@@ -280,24 +266,11 @@ svg.purple .color {
 }
 
 .about article .media i {
-  font-size: 20em;
+  font-size: 10em;
   font-style: normal;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.about article .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.about article .content h2 {
-  font-size: 2.5em;
-  color: var(--white-alt);
-  font-weight: bold;
-  margin-bottom: 0;
 }
 
 .about article .content h2:before {
@@ -351,14 +324,6 @@ svg.purple .color {
   100% {
     width: 100%;
   }
-}
-
-.about article .content p {
-  margin-top: .2em;
-  font-size: 1.5em;
-  text-align: justify;
-  font-weight: 100;
-  color: var(--grey);
 }
 
 .about article.active .content p {
