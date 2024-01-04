@@ -18,10 +18,12 @@ export default {
     <NavBar />
     <h1 class="page-title less">
       Contact me <span class="emoji">📨</span>
-      <p style="color: var(--grey); font-size: .4em; padding-left: .2em;">
+    </h1>
+    <h2 class="page-title less no-pd">
+      <p style="color: var(--grey); font-size: .5em;">
         Contact me for any request, projects, issues... I'm available for little code missions.
       </p>
-    </h1>
+    </h2>
     <ContactForm />
     <hr>
     <AcknowledgementsSection />
