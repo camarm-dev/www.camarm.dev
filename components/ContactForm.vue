@@ -50,6 +50,13 @@
             @input="content = $event.target.value"
           />
         </div>
+        <button
+          class="mg mobile"
+          type="button"
+          @click="sendMail()"
+        >
+          Send
+        </button>
       </div>
     </div>
   </form>

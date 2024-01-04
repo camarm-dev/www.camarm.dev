@@ -131,6 +131,11 @@ b {
   padding-right: 1em;
 }
 
+.drawer.divided .mg {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 .drawer.pd {
   padding: 1.2em;
 }
@@ -172,6 +177,10 @@ b {
 .drawer header.light {
   background-color: var(--black-alt);
   border-bottom: .55px var(--black-dark-alt) solid;
+}
+
+.drawer button.mobile {
+  display: none;
 }
 
 .drawer header img {
@@ -220,6 +229,16 @@ b {
 
   .drawer.media {
     display: none;
+  }
+
+  .drawer header button {
+    display: none;
+  }
+
+  .drawer button.mobile {
+    display: block;
+    padding-top: .5em;
+    padding-bottom: .5em;
   }
 
   .page-title {
