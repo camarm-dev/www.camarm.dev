@@ -50,6 +50,12 @@ body {
   margin-bottom: 1em;
 }
 
+.page-title p {
+  font-family: ui-monospace, monospace, sans-serif;
+  font-weight: normal;
+  margin-top: 0;
+}
+
 .emoji {
   font-family: "Emoji", sans-serif !important;
 }
@@ -215,6 +221,7 @@ b {
   .page-title {
     padding-left: .5em;
   }
+
   .page-title.less {
     padding-left: .2em;
   }
