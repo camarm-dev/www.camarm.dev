@@ -6,11 +6,6 @@
 This repository contains th camarm's website code.
 This website is available at https://www.camarm.dev.
 
-## TODOS
-- [x] Intersection observer bugged
-- [ ] Magnetic scroll
-- [ ] Stick the footer to bottom
-
 ## Documentation
 
 ### Configuration
