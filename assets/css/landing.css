@@ -219,9 +219,8 @@ svg.purple .color {
   gap: 1em;
 }
 
-.about:first-child {
+.about.mt {
   margin: 5em auto auto;
-
 }
 
 .about article {
