@@ -91,19 +91,20 @@ footer.acknowledgements {
   margin-top: 5em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  border-top: 0.55px solid var(--grey);
+  border-top: 0.55px solid var(--black-dark-alt);
   background-color: var(--black-alt);
   position: relative;
   bottom: 0;
   top: 15%;
 }
 
-footer.acknowledgements .cd-logo {
+footer.acknowledgements .corp-logo {
   width: auto !important;
   margin-bottom: .5em;
 }
 
 footer.acknowledgements .right {
+  font-family: ui-monospace, monospace, sans-serif;
   padding-left: 1em;
   width: 30%;
   display: flex;
@@ -142,27 +143,15 @@ footer.acknowledgements .sections div p {
 }
 
 footer.acknowledgements .sections div a {
-  display: block;
   color: var(--grey);
   text-decoration: none;
-  margin-bottom: -1.1em;
   width: max-content;
   padding: .1em;
+  font-family: ui-monospace, monospace, sans-serif;
 }
 
-footer.acknowledgements .sections div a:after {
-  content: '';
-  display: block;
-  position: relative;
-  transform: translate(0, -120%);
-  width: 0;
-  height: 1.1em;
-  background-color: var(--white-25);
-  transition: .5s ease-in-out;
-}
-
-footer.acknowledgements .sections div a:hover:after {
-  width: calc(100%);
+footer.acknowledgements .sections div a:hover {
+  text-decoration: var(--grey) underline solid;
 }
 
 @media (max-width: 1024px) {
@@ -176,7 +165,7 @@ footer.acknowledgements .sections div a:hover:after {
 
   footer.acknowledgements .sections {
     flex-direction: column;
-    margin-left: 5em;
+    margin-left: 1em;
   }
 
   footer.acknowledgements .right {
