@@ -155,6 +155,22 @@ b {
   color: var(--blue-alt);
 }
 
+.socials a.gh {
+  color: #ffff;
+}
+
+.socials a.gh:hover {
+  color: var(--grey);
+}
+
+.socials a.gl {
+  color: #e24329;
+}
+
+.socials a.gl:hover {
+  color: #fc6d26;
+}
+
 @media (max-width: 1024px) {
   .col.half {
     width: 100%;
