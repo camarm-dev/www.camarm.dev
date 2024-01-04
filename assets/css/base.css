@@ -42,6 +42,10 @@ body {
   max-width: 100vw;
 }
 
+.light {
+  color: var(--white);
+}
+
 .page-title {
   padding-top: 15vh;
   padding-left: 3em;
