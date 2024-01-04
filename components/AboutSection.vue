@@ -1,3 +1,7 @@
+<script setup>
+import { Github, Gitlab, Mail } from 'lucide-vue-next'
+import DevIcon from "~/components/DevIcon.vue";
+</script>
 <script>
 export default defineComponent({
   name: 'AboutSection'
@@ -112,13 +116,16 @@ export default defineComponent({
 
   </section>
   <section class="about">
-    <div class="drawer" style="width: 100%; margin-top: 1em;">
+    <div class="drawer" style="width: 100%; margin-top: 1em; margin-bottom: 1em;">
       <h2 class="title">Contact me 👥</h2>
       <p>
         You can reach me at <a href="mailto:contact@camarm.dev">contact@camarm.dev</a> to contact me. Please prefer use <a href="mailto:software@camarm.dev">software@camarm.dev</a> to contact me about software I develop.
       </p>
       <div class="socials">
-
+        <a href="https://github.com/camarm-dev" target="_blank"><Github/></a>
+        <a href="https://gitlab.com/camarm" target="_blank"><Gitlab/></a>
+        <a href="https://dev.to/camarm" target="_blank"><DevIcon/></a>
+        <a href="mailto:contact@camarm.dev"><Mail/></a>
       </div>
     </div>
   </section>
