@@ -1,25 +1,20 @@
 <template>
-  <div class="article">
-    <NuxtLink :to="'/blog/' + articleData.id">
-      <header>
-        <img
-          :src="articleData.cover_image"
-          alt="Article Image"
-        >
-        <h2 class="title">
-          {{ articleData.title }}
-        </h2>
-      </header>
-    </NuxtLink>
-    <div class="content">
-      <p class="description">
+  <NuxtLink :to="'/blog/' + articleData.id">
+    <div class="drawer has-cover-image">
+      <img
+        :src="articleData.cover_image"
+        alt="Article Image"
+      >
+      <h2 class="title">
+        {{ articleData.title }}
+      </h2>
+      <p>
         {{ articleData.description }}
-      </p>
-      <p class="date">
-        {{ articleData.readable_publish_date }}
+        <br>
+        <span class="light">{{ articleData.readable_publish_date }}</span>
       </p>
     </div>
-  </div>
+  </NuxtLink>
 </template>
 
 <script>
