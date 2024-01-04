@@ -211,12 +211,17 @@ svg.purple .color {
 }
 
 .about {
-  margin: 5em auto auto;
+  margin: auto;
   width: 90%;
   max-width: 880px;
   display: flex;
   flex-direction: row;
   gap: 1em;
+}
+
+.about:first-child {
+  margin: 5em auto auto;
+
 }
 
 .about article {
