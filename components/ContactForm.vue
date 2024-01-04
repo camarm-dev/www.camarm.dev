@@ -3,10 +3,13 @@
     <div class="top">
       <div class="drawer divided">
         <header class="light">
-          <h2 class="title">Send a message</h2>
+          <h2 class="title">
+            Send a message
+          </h2>
           <button
             type="button"
-            @click="sendMail()">
+            @click="sendMail()"
+          >
             Send
           </button>
         </header>
