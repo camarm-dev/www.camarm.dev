@@ -1,5 +1,5 @@
 <script setup>
-import { Github, Gitlab, Mail } from 'lucide-vue-next'
+import { Github, Gitlab, Mail, Phone } from 'lucide-vue-next'
 import DevIcon from '~/components/DevIcon.vue'
 </script>
 <script>
@@ -133,8 +133,9 @@ export default defineComponent({
       <div class="socials">
         <a href="https://github.com/camarm-dev" target="_blank"><Github /></a>
         <a href="https://gitlab.com/camarm" target="_blank"><Gitlab /></a>
-        <a href="https://dev.to/camarm" target="_blank"><DevIcon /></a>
         <a href="mailto:contact@camarm.dev"><Mail /></a>
+        <a href="tel:+33766760191"><Phone /></a>
+        <a href="https://dev.to/camarm" target="_blank"><DevIcon /></a>
       </div>
     </div>
   </section>
