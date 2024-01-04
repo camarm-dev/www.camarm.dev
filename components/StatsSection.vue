@@ -23,6 +23,13 @@
       <p>Repositories</p>
     </div>
   </section>
+  <section class="stats-mobile">
+    <div class="drawer">
+      <p>
+        <span class="light">{{ line_count }}</span> lines of code for <span class="light">{{ commit_count }}</span> in <span class="light">{{ repo_count }}</span> repositories.
+      </p>
+    </div>
+  </section>
 </template>
 
 <script>
