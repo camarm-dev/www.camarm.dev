@@ -1,50 +1,53 @@
 <template>
   <form class="contact">
     <div class="top">
-      <div class="field">
-        <label>Email</label>
-        <input
-          :value="sender.email"
-          type="email"
-          placeholder="jean.baptiste@dupont.com"
-          @input="sender.email = $event.target.value"
-        >
+      <div class="drawer divided">
+        <header class="light">
+          <h2 class="title">Send a message</h2>
+          <button
+            type="button"
+            @click="sendMail()">
+            Send
+          </button>
+        </header>
+        <div class="field pd">
+          <label>Email</label>
+          <input
+            :value="sender.email"
+            type="email"
+            placeholder="jean.baptiste@dupont.com"
+            @input="sender.email = $event.target.value"
+          >
+        </div>
+        <div class="group pd">
+          <div class="field">
+            <label>Fullname</label>
+            <input
+              :value="sender.name"
+              type="text"
+              placeholder="Jean-Baptiste Dupont"
+              @input="sender.name = $event.target.value"
+            >
+          </div>
+          <div class="field">
+            <label>Subject</label>
+            <input
+              :value="subject"
+              type="text"
+              placeholder="I saw your website"
+              @input="subject = $event.target.value"
+            >
+          </div>
+        </div>
+        <div class="field pd">
+          <label>Your message</label>
+          <textarea
+            :value="content"
+            placeholder="I saw your website today..."
+            @input="content = $event.target.value"
+          />
+        </div>
       </div>
-    </div>
-    <div class="middle">
-      <div class="field">
-        <label>Fullname</label>
-        <input
-          :value="sender.name"
-          type="text"
-          placeholder="Jean-Baptiste Dupont"
-          @input="sender.name = $event.target.value"
-        >
-      </div>
-      <div class="field">
-        <label>Subject</label>
-        <input
-          :value="subject"
-          type="text"
-          placeholder="I saw your website"
-          @input="subject = $event.target.value"
-        >
-      </div>
-    </div>
-    <div class="textarea">
-      <textarea
-        :value="content"
-        placeholder="I saw your website today..."
-        @input="content = $event.target.value"
-      />
-    </div>
-    <div class="actions">
-      <button
-        type="button"
-        @click="sendMail()"
-      >
-        Send&nbsp;<i class="fas fa-paper-plane" />
-      </button>
     </div>
   </form>
 </template>
