@@ -3,10 +3,7 @@
     {
     "name": "Avantages Jeunes Mobile",
       "class": "white",
-      "images": {
-        "default": "/images/work/AJC.png",
-        "alternative": "/images/work/AJC.gif"
-      },
+      "icon": "/images/work/AJC.png",
       "description": "Avantages Jeunes Mobile is a mobile app to browse advantages by connecting your Avantages Jeunes card. It's a mobile app on top of an existing API.",
       "links": [
         {
@@ -24,10 +21,7 @@
     {
     "name": "Remède",
       "class": "",
-      "images": {
-        "default": "/images/work/remede.png",
-        "alternative": "/images/work/remede.gif"
-      },
+      "icon": "/images/work/remede.png",
       "description": "Remède is a french and open source dictionary. It's a mobile app. It includes a grammar and orthography corrector. It provides an open public API too.",
       "links": [
         {
@@ -45,10 +39,7 @@
     {
     "name": "Dule",
       "class": "",
-      "images": {
-        "default": "/images/work/dule.png",
-        "alternative": "/images/work/dule.gif"
-      },
+      "icon": "/images/work/dule.png",
       "description": "Dule is your new companion. It's a free and open source mobile app to manage your life ! All your tasks, notes and events in one app ! You can also schedule reminders.",
       "links": [
         {
@@ -66,10 +57,7 @@
     {
     "name": "Dimitri Rey Website",
       "class": "white",
-      "images": {
-        "default": "/images/work/DRWeb.png",
-        "alternative": "/images/work/DRWeb_projects.png"
-      },
+      "icon": "/images/work/DRWeb.png",
       "description": "Thanks to Dimitri Rey who have trusted me and have led me build his website. I can make you one like that so contact me at contact@camarm.dev !",
       "links": [
         {
@@ -81,10 +69,7 @@
     },
     {
       "name": "Push 2 Prod",
-      "images": {
-        "default": "https://github.com/camarm-dev/p2p/blob/main/.github/logo.png?raw=true",
-        "alternative": "/images/work/p2p.gif"
-      },
+      "icon": "https://github.com/camarm-dev/p2p/blob/main/.github/logo.png?raw=true",
       "description": "Push 2 Prod is the modern and easiest way to push any apps into production in one command. It's an ssh based command line interface written in ruby.",
       "links": [
         {
@@ -96,10 +81,7 @@
     },
     {
       "name": "Blaugue",
-      "images": {
-        "default": "/images/work/blaugue.png",
-        "alternative": "/images/work/blaugue.gif"
-      },
+      "icon": "/images/work/blaugue.png",
       "description": "Blaugue is a blog I made for my family to get memories of holidays and travels !\nIt's open source and currently being rebuilt...",
       "links": [
         {
@@ -116,10 +98,7 @@
     },
     {
       "name": "Ondine Portfolio",
-      "images": {
-        "default": "/images/work/ondine.png",
-        "alternative": "/images/work/ondine.gif"
-      },
+      "icon": "/images/work/ondine.png",
       "description": "Ondine CAMPONOVO's website is a portfolio for an artist. It has a dashboard page to add creations articles, classed by labels.\n<span class=\"emoji\">⚠️</span>&nbsp;Currently offline",
       "links": [
         {
@@ -136,10 +115,7 @@
     },
     {
       "name": "Elevedirect",
-      "images": {
-        "default": "/images/work/elevedirect.png",
-        "alternative": "/images/work/elevedirect.gif"
-      },
+      "icon": "/images/work/elevedirect.png",
       "description": "Elevedirect is an open source Ecoledirect client, with a new interface, and news functionalities built by a student for students.\n<span class=\"emoji\">⚠️</span>&nbsp;Unofficial product !",
       "links": [
         {
@@ -161,10 +137,7 @@
     },
     {
       "name": "Magoole",
-      "images": {
-        "default": "/images/work/magoole.png",
-        "alternative": "/images/work/magoole.gif"
-      },
+      "icon": "/images/work/magoole.png",
       "description": "Magoole is an open source and data privacy focused search engine with its own crawler and website discovering.\n<span class=\"emoji\">⚠️</span>&nbsp;Experimental !",
       "links": [
         {
@@ -176,10 +149,7 @@
     },
     {
       "name": "La Plante Qr",
-      "images": {
-        "default": "/images/work/planteqr.png",
-        "alternative": "/images/work/planteqr.gif"
-      },
+      "icon": "/images/work/planteqr.png",
       "description": "La Plante Qr is a school project, that sold kit to learn how to garden. By scanning your kit's Qr code, you will access to sheets about your plant. You can also take pictures of it and download a slideshow !",
       "links": [
         {
@@ -197,10 +167,7 @@
     {
       "name": "Étalans Weather Station",
       "class": "white",
-      "images": {
-        "default": "/images/work/meteo.png",
-        "alternative": "/images/work/meteo.gif"
-      },
+      "icon": "/images/work/meteo.png",
       "description": "A weather station that collect temperature and humidity from a raspberry pi and generate charts and analyses on a website.\n<span class=\"emoji\">⚠️</span>&nbsp;Currently offline",
       "links": [
         {
@@ -213,10 +180,7 @@
     {
       "name": "CocoyoyoLibrairie",
       "class": "white",
-      "images": {
-        "default": "/images/work/librairie.png",
-        "alternative": "/images/work/librairie.gif"
-      },
+      "icon": "/images/work/librairie.png",
       "description": "A Babelio like library to store, comment and track read books. It has a light/dark mode, a filter function and an complete interface to manage lists and authors.",
       "links": [
         {
