@@ -6,6 +6,10 @@
   margin-bottom: 4em !important;
 }
 
+.stats-mobile {
+  display: none;
+}
+
 .stats .stat {
   display: flex;
   flex-direction: column;
@@ -49,8 +53,30 @@
 }
 
 @media (max-width: 1100px) {
+  .stats {
+    display: none;
+  }
+
+  .stats-mobile {
+    display: block;
+    width: 95%;
+    padding: 1em;
+    margin: auto;
+  }
+
   .work {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+
+  .work {
+    width: 95%;
+  }
+
+  .work .drawer {
+    overflow: hidden;
+    text-overflow-mode: ellipsis;
+    max-width: 100%;
+    width: 100%;
   }
 }
 
