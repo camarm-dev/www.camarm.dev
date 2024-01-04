@@ -10,7 +10,7 @@ describe('Work (portfolio) section', () => {
 
   it('shows given work from data', () => {
     const page = mount(WorkPage)
-    const workCards = page.findAll('.card')
+    const workCards = page.findAll('.drawer')
     expect(workCards.length).toBeGreaterThanOrEqual(3)
   })
 })
