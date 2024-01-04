@@ -50,7 +50,7 @@ export default defineComponent({
         <p>
           + 20 projects<br>
           + 3.1 millions lines of code<br>
-          + 2000 github commits<br>
+          + 4000 github commits<br>
           + 200 issues resolved<br>
           + 50 PR merged<br><br>
           + 10 self-hosted services online<br>
