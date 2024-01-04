@@ -149,7 +149,7 @@
     {
       "name": "Elevedirect",
       "icon": "/images/icons/elevedirect.png",
-      "description": "Elevedirect is an open source Ecoledirect client, with a new interface, and news functionalities built by a student for students.\n<span class=\"emoji\">⚠️</span>&nbsp;Unofficial product !",
+      "description": "Elevedirect is an open source Ecoledirect client, with a new interface, and news functionalities built by a student for students.\n<span class=\"emoji\">⚠️</span>&nbsp;Unofficial product ! <span class=\"emoji\">⚠️</span>&nbsp;Offline !",
       "links": [
         {
           "icon": "fas fa-globe",
