@@ -1,28 +1,24 @@
+<script setup>
+import { ExternalLink } from 'lucide-vue-next'
+</script>
 <template>
   <section class="work">
     <div
       v-for="project in $data.projects"
       :key="project.name"
-      :class="`card ${project.class}`"
+      class="drawer"
     >
       <header>
-        <img
-          :alt="project.name + ' Image'"
-          :src="project.images.default"
-          class="default"
-        >
-        <img
-          :alt="project.name + ' Image'"
-          :src="project.images.alternative"
-          class="alternative"
-        >
+        <h2 class="title">
+          {{ project.name }}
+          <a :href="project.links[0].href" target="_blank">
+            <ExternalLink />
+          </a>
+        </h2>
+        <img v-if="project.icon" :alt="`${project.name} Icon`" :src="project.icon" class="icon" />
       </header>
-      <h1>{{ project.name }}</h1>
-      <div
-        class="content"
-        v-html="project.description.replaceAll('\n', '<br>')"
-      />
-      <div class="links">
+      <p v-html="project.description.replaceAll('\n', '<br>')" />
+      <div class="socials">
         <a
           v-for="link in project.links"
           :key="link.href"
