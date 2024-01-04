@@ -4,7 +4,7 @@
     <h1 class="page-title">
       Legal notice <span class="emoji">⚖️</span>
     </h1>
-    <div style="padding-left: 3em;">
+    <div style="padding-left: 3em; font-family: ui-monospace, monospace, sans-serif">
       <h1 id="mentions-l-gales">
         Mentions légales
       </h1>
