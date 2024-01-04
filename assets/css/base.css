@@ -223,7 +223,9 @@ b {
   }
 
   .page-title {
-    padding-left: .5em;
+    padding-left: .8em;
+    font-size: 2em;
+    margin-bottom: 0;
   }
 
   .page-title.less {
