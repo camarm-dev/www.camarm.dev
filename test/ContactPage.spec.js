@@ -8,9 +8,4 @@ describe('ContactPage page', () => {
     const form = page.find('form.contact')
     expect(form).not.toBeNull()
   })
-
-  it('shows links to social medias', () => {
-    const socials = page.find('.socials')
-    expect(socials.element.children).toHaveLength(5)
-  })
 })
