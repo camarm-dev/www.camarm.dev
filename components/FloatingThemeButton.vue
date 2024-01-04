@@ -3,10 +3,10 @@ import { Sun, Moon } from 'lucide-vue-next'
 </script>
 
 <template>
-<button @click="changeTheme()" class="theme-switcher">
-  <Sun v-if="theme == 'dark'"/>
-  <Moon v-else/>
-</button>
+  <button class="theme-switcher" @click="changeTheme()">
+    <Sun v-if="theme == 'dark'" />
+    <Moon v-else />
+  </button>
 </template>
 
 <script lang="ts">
@@ -17,7 +17,7 @@ export default {
       theme: 'dark'
     }
   },
-  mounted() {
+  mounted () {
     this.theme = this.getTheme()
     this.start()
   },
