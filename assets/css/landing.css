@@ -202,25 +202,6 @@ svg.purple .color {
   stroke: var(--purple);
 }
 
-#to-top {
-  transition: .5s ease-in-out;
-  padding: .2em;
-  width: 5em;
-  height: 5em;
-  border-radius: 50%;
-  background-color: var(--blue);
-  box-shadow: 0 0 15px var(--blue);
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-  color: var(--black);
-}
-
-#to-top:hover {
-  scale: 1.1;
-  box-shadow: 0 0 30px var(--blue);
-}
-
 .about .link {
   text-align: center;
   position: relative;
