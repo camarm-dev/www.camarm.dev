@@ -8,7 +8,7 @@ export default defineComponent({
 })
 </script>
 <template>
-  <section class="about">
+  <section class="about mt">
     <div class="col left half">
 
       <div class="content drawer">
