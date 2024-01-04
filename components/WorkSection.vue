@@ -15,7 +15,7 @@ import { ExternalLink } from 'lucide-vue-next'
             <ExternalLink />
           </a>
         </h2>
-        <img v-if="project.icon" :alt="`${project.name} Icon`" :src="project.icon" class="icon" />
+        <img v-if="project.icon" :alt="`${project.name} Icon`" :src="project.icon" class="icon">
       </header>
       <p v-html="project.description.replaceAll('\n', '<br>')" />
       <div class="socials">
@@ -28,7 +28,7 @@ import { ExternalLink } from 'lucide-vue-next'
         ><i :class="link.icon + ' fa-lg'" /></a>
 
         <span class="tags">
-          <span v-for="tag in project.tags">{{ tag }}</span>
+          <span v-for="tag in project.tags" :key="tag">{{ tag }}</span>
         </span>
       </div>
     </div>

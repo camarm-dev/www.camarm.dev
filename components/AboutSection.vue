@@ -1,6 +1,6 @@
 <script setup>
 import { Github, Gitlab, Mail } from 'lucide-vue-next'
-import DevIcon from "~/components/DevIcon.vue";
+import DevIcon from '~/components/DevIcon.vue'
 </script>
 <script>
 export default defineComponent({
@@ -10,9 +10,10 @@ export default defineComponent({
 <template>
   <section class="about mt">
     <div class="col left half">
-
       <div class="content drawer">
-        <h2 class="title">Welcome ! 👨‍💻</h2>
+        <h2 class="title">
+          Welcome ! 👨‍💻
+        </h2>
         <p>
           Welcome on my website !
           I’m a french 15 years old junior developer and growing sysadmin passionated of Linux, servers infrastructures
@@ -21,11 +22,13 @@ export default defineComponent({
       </div>
 
       <div class="media drawer">
-        <img src="../assets/images/illustrations/gradient1.png" alt="Gradient"/>
+        <img src="../assets/images/illustrations/gradient1.png" alt="Gradient">
       </div>
 
       <div class="content drawer">
-        <h2 class="title">My engagements 👊</h2>
+        <h2 class="title">
+          My engagements 👊
+        </h2>
         <p>
           I'm always trying to use open source and privacy respectives tools. That’s why I host alternatives to GAFAM's
           services on my server.
@@ -37,11 +40,13 @@ export default defineComponent({
       </div>
 
       <div class="media drawer">
-        <img src="../assets/images/illustrations/gradient3.png" alt="Gradient"/>
+        <img src="../assets/images/illustrations/gradient3.png" alt="Gradient">
       </div>
 
       <div class="content drawer">
-        <h2 class="title">Experiences 🔮</h2>
+        <h2 class="title">
+          Experiences 🔮
+        </h2>
         <p>
           + 20 projects<br>
           + 1.3 millions lines of code<br>
@@ -54,17 +59,17 @@ export default defineComponent({
           + 2 years managing my own infrastructure<br>
         </p>
       </div>
-
     </div>
 
     <div class="col right half">
-
       <div class="media drawer">
-        <img src="../assets/images/illustrations/gradient.png" alt="Gradient"/>
+        <img src="../assets/images/illustrations/gradient.png" alt="Gradient">
       </div>
 
       <div class="content drawer">
-        <h2 class="title">My objectives 🗒️</h2>
+        <h2 class="title">
+          My objectives 🗒️
+        </h2>
         <p>
           I wanna use and administrate servers but also code in my future job. I really enjoy making these on my free
           time and absolutely want to make them my job.<br>
@@ -74,11 +79,13 @@ export default defineComponent({
       </div>
 
       <div class="media drawer">
-        <img src="../assets/images/illustrations/gradient2.png" alt="Gradient"/>
+        <img src="../assets/images/illustrations/gradient2.png" alt="Gradient">
       </div>
 
       <div class="content drawer">
-        <h2 class="title">Skills 💾</h2>
+        <h2 class="title">
+          Skills 💾
+        </h2>
         <p>
           <b>Languages</b><br>
           <span class="tags">
@@ -104,28 +111,30 @@ export default defineComponent({
             <span>Proxmox</span>
             <span>Linux</span>
           </span><br>
-          You can check <NuxtLink to="/work">my projects</NuxtLink> to see me in action.
+          You can check <NuxtLink to="/work">
+            my projects
+          </NuxtLink> to see me in action.
         </p>
       </div>
 
       <div class="media drawer">
-        <img src="../assets/images/illustrations/gradient4.png" alt="Gradient"/>
+        <img src="../assets/images/illustrations/gradient4.png" alt="Gradient">
       </div>
-
     </div>
-
   </section>
   <section class="about">
     <div class="drawer" style="width: 100%; margin-top: 1em; margin-bottom: 1em;">
-      <h2 class="title">Contact me 👥</h2>
+      <h2 class="title">
+        Contact me 👥
+      </h2>
       <p>
         You can reach me at <a href="mailto:contact@camarm.dev">contact@camarm.dev</a> to contact me. Please prefer use <a href="mailto:software@camarm.dev">software@camarm.dev</a> to contact me about software I develop.
       </p>
       <div class="socials">
-        <a href="https://github.com/camarm-dev" target="_blank"><Github/></a>
-        <a href="https://gitlab.com/camarm" target="_blank"><Gitlab/></a>
-        <a href="https://dev.to/camarm" target="_blank"><DevIcon/></a>
-        <a href="mailto:contact@camarm.dev"><Mail/></a>
+        <a href="https://github.com/camarm-dev" target="_blank"><Github /></a>
+        <a href="https://gitlab.com/camarm" target="_blank"><Gitlab /></a>
+        <a href="https://dev.to/camarm" target="_blank"><DevIcon /></a>
+        <a href="mailto:contact@camarm.dev"><Mail /></a>
       </div>
     </div>
   </section>
