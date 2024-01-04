@@ -55,10 +55,10 @@
 </template>
 
 <script>
-import IncorporationLogo from "~/components/IncorporationLogo.vue";
+import IncorporationLogo from '~/components/IncorporationLogo.vue'
 
 export default defineComponent({
   name: 'AcknowledgementsSection',
-  components: {IncorporationLogo }
+  components: { IncorporationLogo }
 })
 </script>
