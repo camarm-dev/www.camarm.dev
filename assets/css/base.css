@@ -120,8 +120,26 @@ b {
   justify-content: space-between;
 }
 
-.drawer.divided {
+.drawer.divided, .drawer.has-cover-image {
   padding: 0 0 1em;
+}
+
+.drawer.has-cover-image .title {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.drawer.has-cover-image p {
+  padding-left: .8em;
+  padding-right: .8em;
+}
+
+.drawer.has-cover-image img {
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-bottom: .55px solid var(--black-dark-alt);
+  margin-bottom: .5em;
 }
 
 .drawer.divided header {
