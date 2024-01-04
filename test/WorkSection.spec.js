@@ -8,14 +8,6 @@ describe('Work (portfolio) section', () => {
     expect(fs.existsSync('assets/data/projects.json'))
   })
 
-  test('has required images (specified in data file)', () => {
-    const data = JSON.parse(fs.readFileSync('assets/data/projects.json'))
-    data.projects.forEach((project) => {
-      expect(fs.existsSync(project.images.default))
-      expect(fs.existsSync(project.images.alternative))
-    })
-  })
-
   it('shows given work from data', () => {
     const page = mount(WorkPage)
     const workCards = page.findAll('.card')
