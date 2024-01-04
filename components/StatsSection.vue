@@ -48,7 +48,7 @@ export default defineComponent({
   },
   methods: {
     async fetchData () {
-      const url = this.$config.public.backend + '/statistics'
+      const url = 'https://api.camarm.fr/statistics'
       const response = await fetch(url).then(res => res.json())
       const stats = response.data
       this.line_count = stats.line_count
