@@ -30,13 +30,13 @@
       "description": "Remède is a french and open source dictionary. It's a mobile app. It includes a grammar and orthography corrector. It provides an open public API too.",
       "links": [
         {
-          "icon": "fab fa-github",
-          "href": "https://github.com/camarm-dev/remede",
-          "class": "gh"
+          "icon": "fas fa-globe",
+          "href": "https://remede.camarm.fr",
+          "class": ""
         },
         {
-          "icon": "fab fa-google-play",
-          "href": "https://f-droid.org",
+          "icon": "fab fa-github",
+          "href": "https://github.com/camarm-dev/remede",
           "class": "gh"
         }
       ],
