@@ -42,6 +42,26 @@ body {
   max-width: 100vw;
 }
 
+body.light {
+  --black: #F2F2F2;
+  --black-50: rgba(219, 217, 221, 0.5);
+  --black-alt: #DBD9DD;
+  --black-dark-alt: #cbcaca;
+  --white: #111014;
+  --white-25: rgba(17, 16, 20, 0.25);
+  --white-alt: #17161a;
+  --white-alt-lighter: #2a282f;
+  --grey: #797987;
+}
+
+body.light .contact button {
+  color: var(--black);
+}
+
+body.light .white-path {
+  fill: var(--white-alt-lighter) !important;
+}
+
 .light {
   color: var(--white);
 }
