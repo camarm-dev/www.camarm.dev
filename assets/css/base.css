@@ -9,6 +9,7 @@
 :root {
   --blue: #6066FF;
   --blue-alt: #90AFFF;
+  --blue-outline: #787dff;
   --gradient-blue: linear-gradient(var(--blue-alt), var(--blue));
   --pink: #A660FF;
   --pink-alt: #C190FF;
@@ -106,6 +107,22 @@ b {
   justify-content: space-between;
 }
 
+.drawer.divided {
+  padding: 0 0 1em;
+}
+
+.drawer.divided header {
+  padding: 1em 1em .8em;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-bottom: 1em;
+}
+
+.drawer.divided .pd {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 .drawer.pd {
   padding: 1.2em;
 }
@@ -121,7 +138,7 @@ b {
   color: var(--grey);
 }
 
-.drawer p {
+.drawer p, .drawer label {
   margin: 0 !important;
   color: var(--grey);
   font-weight: 100;
@@ -142,6 +159,11 @@ b {
 .drawer header {
   display: flex;
   justify-content: space-between;
+}
+
+.drawer header.light {
+  background-color: var(--black-alt);
+  border-bottom: .55px var(--black-dark-alt) solid;
 }
 
 .drawer header img {

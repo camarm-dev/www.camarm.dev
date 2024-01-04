@@ -5,13 +5,6 @@
   width: 50%;
 }
 
-.contact .top, .contact .middle, .contact .textarea {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1em;
-  max-width: 100%;
-}
-
 .contact .middle .field {
   width: 50%;
 }
@@ -20,10 +13,8 @@
   display: flex;
   flex-direction: column;
   margin-right: 1em;
-}
-
-.contact .field + .field{
-  margin-right: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .contact .field:last-child {
@@ -31,17 +22,29 @@
 }
 
 .contact .field label {
-  color: var(--grey);
-  font-size: .8em;
+  color: var(--white);
+  font-size: 1em;
+  font-family: "Amiko", sans-serif;
+  font-weight: bold;
+}
+
+.contact .group {
+  display: flex;
+}
+
+.contact .group .field:first-child {
+  margin-right: 2em;
 }
 
 .contact input, .contact textarea {
   padding: .7em;
-  font-size: 1.1em;
+  font-size: 1em;
   background-color: var(--black-alt);
   color: var(--white);
   border: 0;
   border-radius: 7px;
+  outline: .55px var(--black-dark-alt) solid;
+  font-family: ui-monospace, monospace, sans-serif;
 }
 
 .contact .textarea textarea {
@@ -51,19 +54,25 @@
 }
 
 .contact input:focus, .contact textarea:focus {
-  outline: 1px solid var(--purple);
-  box-shadow: 0 0 2px var(--purple);
+  outline: 2px solid var(--blue);
+  box-shadow: 0 0 2px var(--blue);
 }
 
-.contact .actions button {
+.contact button {
+  font-weight: bold;
   background-color: var(--blue);
   color: var(--white);
-  transition: .5s ease-in-out;
+  outline: .55px solid var(--blue-outline);
+  border: none;
+  border-radius: 3px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-.contact .actions button:hover {
-  background-color: var(--pink);
-  color: var(--black);
+.contact button:hover {
+  cursor: pointer;
+  background-color: var(--blue-outline);
+  outline-color: var(--blue-alt);
 }
 
 @media (max-width: 1500px) {
