@@ -1,7 +1,6 @@
 <template>
-  <NuxtPage />
-  <FloatingThemeButton />
+  <Layout />
 </template>
 <script setup>
-import FloatingThemeButton from '~/components/FloatingThemeButton.vue'
+import Layout from '~/DefaultLayout.vue'
 </script>
