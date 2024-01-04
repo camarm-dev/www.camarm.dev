@@ -1,4 +1,4 @@
-FROM node:19.7.0-alpine
+FROM node:18.17.0-alpine
 
 # Create destination directory
 RUN mkdir -p /usr/src/website
