@@ -86,7 +86,7 @@ b {
   border-radius: 3px;
   color: var(--black);
   font-size: .8em;
-  padding: .1em;
+  padding: .2em;
 }
 
 .tags span:hover {
@@ -104,6 +104,10 @@ b {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.drawer.pd {
+  padding: 1.2em;
 }
 
 .drawer .title {
