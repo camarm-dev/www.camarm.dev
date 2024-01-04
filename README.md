@@ -9,13 +9,11 @@ This website is available at https://www.camarm.dev.
 ## Documentation
 
 ### Configuration
-
-`.env`
-```dotenv
-BACKEND=https://api.camarm.fr
+```shell
+npm i
 ```
 
-### Developement run
+### Development run
 ```shell
 npm run dev
 ```
