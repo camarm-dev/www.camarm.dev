@@ -101,6 +101,9 @@ b {
   border-radius: 12px;
   font-family: ui-monospace, monospace, sans-serif;
   font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .drawer .title {
@@ -108,6 +111,10 @@ b {
   margin: 0;
   font-size: 1.6em;
   color: var(--white-alt);
+}
+
+.drawer .title a {
+  color: var(--grey);
 }
 
 .drawer p {
@@ -128,10 +135,24 @@ b {
   object-fit: cover;
 }
 
+.drawer header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.drawer header img {
+  width: 1.5em;
+  height: 1.5em;
+}
+
 .socials {
   margin-top: 1em;
   display: flex;
   gap: 1em;
+}
+
+.socials a:hover {
+  color: var(--blue-alt);
 }
 
 @media (max-width: 1024px) {
