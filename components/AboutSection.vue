@@ -49,7 +49,7 @@ export default defineComponent({
         </h2>
         <p>
           + 20 projects<br>
-          + 1.3 millions lines of code<br>
+          + 3.1 millions lines of code<br>
           + 2000 github commits<br>
           + 200 issues resolved<br>
           + 50 PR merged<br><br>
