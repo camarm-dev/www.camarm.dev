@@ -66,9 +66,6 @@
 
   .work {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-  }
-
-  .work {
     width: 95%;
   }
 
