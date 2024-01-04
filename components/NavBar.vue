@@ -29,24 +29,6 @@
           Contact
         </NuxtLink>
       </div>
-      <div class="item square gh">
-        <a
-          href="https://github.com/camarm-dev"
-          target="_blank"
-        ><i class="fab fa-github" /></a>
-      </div>
-      <div class="item square gl">
-        <a
-          href="https://gitlab.com/camarm"
-          target="_blank"
-        ><i class="fab fa-gitlab" /></a>
-      </div>
-      <div class="item square ml">
-        <a
-          href="mailto:contact@camarm.dev"
-          target="_blank"
-        ><i class="fas fa-envelope" /></a>
-      </div>
     </div>
     <div
       class="burger"
