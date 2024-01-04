@@ -58,18 +58,6 @@ pre code {
   }
 }
 
-.tags .tag:first-child, .tags .tag:nth-child(4) {
-  background-color: var(--blue);
-}
-
-.tags .tag:nth-child(2) {
-  background-color: var(--purple);
-}
-
-.tags .tag:nth-child(3) {
-  background-color: var(--pink);
-}
-
 .tag {
   padding: .3em;
   border-radius: 6px;
