@@ -24,23 +24,6 @@ export default {
     </h1>
     <ContactForm />
     <hr>
-    <div class="socials">
-      <button class="gl" @click="open('https://gitlab.com/camarm')">
-        Gitlab&nbsp;<i class="fab fa-gitlab" />
-      </button>
-      <button class="gh" @click="open('https://github.com/camarm-dev')">
-        Github&nbsp;<i class="fab fa-github" />
-      </button>
-      <button class="" @click="open('mailto:contact@camarm.dev')">
-        Email&nbsp;<i class="fas fa-envelope" />
-      </button>
-      <button class="dt" @click="open('https://dev.to/camarm')">
-        Dev.to&nbsp;<i class="fab fa-dev" />
-      </button>
-      <button class="ds" @click="open('https://discordapp.com/users/690581743425814548')">
-        Discord&nbsp;<i class="fab fa-discord" />
-      </button>
-    </div>
     <AcknowledgementsSection />
   </div>
 </template>
