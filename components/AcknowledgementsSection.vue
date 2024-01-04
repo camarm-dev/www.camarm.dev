@@ -1,7 +1,7 @@
 <template>
   <footer class="acknowledgements">
     <div class="right">
-      <LogoLarge />
+      <IncorporationLogo />
       <p>www.camarm.dev with <i class="fas fa-heart" /> by @camarm for CAMARM Inc.</p>
     </div>
     <div class="sections">
@@ -55,11 +55,10 @@
 </template>
 
 <script>
-
-import LogoLarge from '@/components/LogoLarge.vue'
+import IncorporationLogo from "~/components/IncorporationLogo.vue";
 
 export default defineComponent({
   name: 'AcknowledgementsSection',
-  components: { LogoLarge }
+  components: {IncorporationLogo }
 })
 </script>
