@@ -211,9 +211,9 @@ svg.purple .color {
 }
 
 .about {
+  margin: 5em auto auto;
   width: 90%;
   max-width: 880px;
-  margin: auto;
   display: flex;
   flex-direction: row;
   gap: 1em;
