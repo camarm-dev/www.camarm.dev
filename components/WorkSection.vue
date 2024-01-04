@@ -26,6 +26,10 @@ import { ExternalLink } from 'lucide-vue-next'
           :href="link.href"
           target="_blank"
         ><i :class="link.icon + ' fa-lg'" /></a>
+
+        <span class="tags">
+          <span v-for="tag in project.tags">{{ tag }}</span>
+        </span>
       </div>
     </div>
   </section>
