@@ -7,6 +7,10 @@
   gap: 1.5em;
 }
 
+.articles .drawer {
+  height: 100%;
+}
+
 .articles a {
   text-decoration: none !important;
 }
