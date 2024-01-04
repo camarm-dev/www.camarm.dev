@@ -16,6 +16,7 @@
   font-weight: bold;
   font-size: 2em;
   margin-bottom: 0;
+  font-family: ui-monospace, monospace, sans-serif;
 }
 
 .stats .stat p {
