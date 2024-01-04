@@ -77,7 +77,11 @@
 
 @media (max-width: 1500px) {
   .contact {
-    width: 80%;
+    width: 95%;
+  }
+
+  .group {
+    flex-direction: column;
   }
 }
 
