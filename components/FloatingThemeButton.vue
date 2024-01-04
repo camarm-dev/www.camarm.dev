@@ -19,6 +19,7 @@ export default {
   },
   mounted() {
     this.theme = this.getTheme()
+    this.start()
   },
   methods: {
     changeTheme () {
@@ -30,6 +31,7 @@ export default {
           break
         default:
           localStorage.setItem('theme', 'dark')
+          break
       }
       const newTheme = this.getTheme()
       document.body.classList.add(newTheme)
@@ -37,6 +39,9 @@ export default {
     },
     getTheme () {
       return localStorage.getItem('theme') || 'dark'
+    },
+    start () {
+      document.body.classList.add(this.theme)
     }
   }
 }
