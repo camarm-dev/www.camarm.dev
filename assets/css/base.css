@@ -128,6 +128,12 @@ b {
   object-fit: cover;
 }
 
+.socials {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+}
+
 @media (max-width: 1024px) {
   .col.half {
     width: 100%;
