@@ -54,6 +54,11 @@ body {
   margin-bottom: 1em;
 }
 
+.page-title.no-pd {
+  padding: 0 0 0 3em;
+  margin: 0;
+}
+
 .page-title p {
   font-family: ui-monospace, monospace, sans-serif;
   font-weight: normal;
@@ -241,13 +246,17 @@ b {
     padding-bottom: .5em;
   }
 
-  .page-title {
+  .page-title, .page-title.no-pd {
     padding-left: .8em;
     font-size: 2em;
     margin-bottom: 0;
   }
 
   .page-title.less {
-    padding-left: .2em;
+    padding-left: .4em;
+  }
+
+  .page-title.less.no-pd {
+    padding-left: .6em;
   }
 }
