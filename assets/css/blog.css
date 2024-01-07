@@ -22,7 +22,14 @@ pre {
   overflow-x: scroll;
 }
 
-pre code {
+code {
+  border-radius: 5px;
+  padding-left: .2em;
+  padding-right: .2em;
+  background-color: var(--black-alt);
+}
+
+pre, code {
   font-family: ui-monospace, monospace, sans-serif;
 }
 
