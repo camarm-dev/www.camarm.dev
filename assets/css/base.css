@@ -292,10 +292,6 @@ b {
     font-size: 1em;
   }
 
-  .drawer.media {
-    display: none;
-  }
-
   .drawer header button {
     display: none;
   }
