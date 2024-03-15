@@ -24,7 +24,7 @@
           target="_blank"
         >Email</a>
         <a href="https://ko-fi.com/Q5Q8SPYLE" target="_blank">
-          <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-Fi"/>
+          <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-Fi">
         </a>
       </div>
       <div>
