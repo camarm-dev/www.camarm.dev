@@ -1,11 +1,39 @@
 {
   "projects": [
     {
+    "name": "Papillon",
+      "class": "white",
+      "icon": "https://docs.getpapillon.xyz/assets/beta.png",
+      "description": "Papillon is the best school life mobile application compatible with all french ENTs, developed by 20 students. I'm a verified contributor of this project.",
+      "links": [
+        {
+          "icon": "fab fa-github",
+          "href": "https://github.com/PapillonApp",
+          "class": "gh"
+        },
+        {
+          "icon": "fas fa-globe",
+          "href": "https://getpapillon.xyz",
+          "class": "gh"
+        }
+      ],
+      "tags": [
+        "react-native",
+        "reverse-engineer",
+        "school"
+      ]
+    },
+    {
     "name": "Avantages Jeunes Mobile",
       "class": "white",
       "icon": "/images/icons/AJC.png",
       "description": "Avantages Jeunes Mobile is a mobile app to browse advantages by connecting your Avantages Jeunes card. It's a mobile app on top of an existing API.",
       "links": [
+        {
+          "icon": "fas fa-globe",
+          "href": "https://avantagesjeunesconnect.camarm.fr/",
+          "class": "gh"
+        },
         {
           "icon": "fab fa-github",
           "href": "https://github.com/camarm-dev/bfc-avantages-jeunes-mobile",
