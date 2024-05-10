@@ -12,9 +12,9 @@
           target="_blank"
         >Github</a>
         <a
-          href="https://gitlab.com/camarm"
+          href="https://cv.camarm.fr"
           target="_blank"
-        >Gitlab</a>
+        >Resume</a>
         <a
           href="https://dev.to/camarm"
           target="_blank"
