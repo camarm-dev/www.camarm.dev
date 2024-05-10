@@ -43,10 +43,10 @@ body {
 }
 
 body.light {
-  --black: #F2F2F2;
+  --black: #cbcaca;
   --black-50: rgba(219, 217, 221, 0.5);
-  --black-alt: #DBD9DD;
-  --black-dark-alt: #cbcaca;
+  --black-alt: #F2F2F2;
+  --black-dark-alt: #DBD9DD;
   --white: #111014;
   --white-25: rgba(17, 16, 20, 0.25);
   --white-alt: #17161a;
@@ -244,6 +244,10 @@ b {
 
 .socials a.gh {
   color: #ffff;
+}
+
+body.light .socials a.gh {
+  color: #222;
 }
 
 .socials a.gh:hover {
