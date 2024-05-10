@@ -14,7 +14,7 @@
         {
           "icon": "fas fa-globe",
           "href": "https://getpapillon.xyz",
-          "class": "gh"
+          "class": "glow"
         }
       ],
       "tags": [
@@ -32,7 +32,7 @@
         {
           "icon": "fas fa-globe",
           "href": "https://avantagesjeunesconnect.camarm.fr/",
-          "class": "gh"
+          "class": "glow"
         },
         {
           "icon": "fab fa-github",
@@ -60,7 +60,7 @@
         {
           "icon": "fas fa-globe",
           "href": "https://remede.camarm.fr",
-          "class": ""
+          "class": "glow"
         },
         {
           "icon": "fab fa-github",
