@@ -26,7 +26,7 @@
       </div>
       <div class="item">
         <a href="https://cv.camarm.fr" target="_blank">
-          Resume <ExternalLink style="height: 20px; color: var(--grey); margin-bottom: -3px;"  />
+          Resume <ExternalLink style="height: 20px; color: var(--grey); margin-bottom: -3px;" />
         </a>
       </div>
     </div>
@@ -42,12 +42,12 @@
 </template>
 
 <script>
+import { ExternalLink } from 'lucide-vue-next'
 import LogoLarge from '@/components/LogoLarge.vue'
-import {ExternalLink} from "lucide-vue-next";
 
 export default defineComponent({
   name: 'NavBar',
-  components: {ExternalLink, LogoLarge },
+  components: { ExternalLink, LogoLarge },
   methods: {
     expandNavbar () {
       this.$refs.navbar.classList.toggle('expanded')
