@@ -1,6 +1,5 @@
 <script setup>
 import { Github, Gitlab, Mail, Phone, Coffee } from 'lucide-vue-next'
-import DevIcon from '~/components/DevIcon.vue'
 </script>
 <script>
 export default defineComponent({
@@ -136,7 +135,6 @@ export default defineComponent({
         <a href="mailto:contact@camarm.dev"><Mail /></a>
         <a href="tel:+33766760191"><Phone /></a>
         <a href="https://ko-fi.com/camarm" target="_blank"><Coffee /></a>
-        <a href="https://dev.to/camarm" target="_blank"><DevIcon /></a>
       </div>
     </div>
   </section>
