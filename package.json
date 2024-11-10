@@ -20,7 +20,7 @@
     "chokidar": "~3.5.3",
     "consolidate": "~1.0.1",
     "core-js": "^3.25.3",
-    "happy-dom": "^10.5.2",
+    "happy-dom": "^15.10.2",
     "jest-transform-stub": "^2.0.0",
     "loadash": "^1.0.0",
     "lucide-vue-next": "^0.303.0",
