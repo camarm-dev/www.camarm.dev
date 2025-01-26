@@ -10,6 +10,16 @@
   width: 100%;
 }
 
+.landing:after {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 10px;
+  background: linear-gradient(to right, var(--blue) 33%, var(--pink) 33%, var(--pink) 66%, var(--purple) 66%);
+  position: absolute;
+  bottom: 0;
+}
+
 .landing .top {
   display: flex;
   flex-direction: row;
@@ -213,14 +223,19 @@ svg.purple .color {
 .about {
   margin: auto;
   width: 90%;
-  max-width: 880px;
+  max-width: 1300px;
   display: flex;
-  flex-direction: row;
-  gap: 1em;
+  flex-wrap: wrap;
 }
 
 .about.mt {
-  margin: 5em auto auto;
+  margin: 10em auto auto;
+}
+
+.about .content h2 + p {
+  color: var(--grey);
+  margin-top: 0;
+  font-size: 1.1em;
 }
 
 .about article {
@@ -233,6 +248,48 @@ svg.purple .color {
 
 i, .hand .waving {
   font-family: "Emoji", sans-serif !important;
+}
+
+.sectionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5em;
+  margin: 0 0 .2em;
+}
+
+.sectionTitle p {
+  color: var(--grey) !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .9em;
+  min-width: max-content;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.sectionTitle span {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--grey);
+}
+
+.heading {
+  font-size: 3em;
+  margin: 0 0 1em;
+}
+
+.heading .blue {
+  color: var(--blue)
+}
+
+.heading .pink {
+  color: var(--pink)
+}
+
+.heading .purple {
+  color: var(--purple)
 }
 
 @media (max-width: 1024px) {
