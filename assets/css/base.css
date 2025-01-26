@@ -98,15 +98,55 @@ b {
   font-weight: bold;
 }
 
+.image {
+  max-width: 100%;
+  margin: 0;
+}
+
+.pl {
+  padding-left: 2em;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 5px;
+  border: .55px var(--black-dark-alt) solid;
+}
+
+.image img:hover {
+  box-shadow: 0 0 2px var(--white-25);
+}
+
+figcaption {
+  color: var(--grey);
+  font-size: .9em;
+  padding-top: .1em;
+}
+
 .col {
+  padding: 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 1em;
+  width: 100%;
+  flex: none;
 }
 
 .col.half {
   width: 50%;
+}
+
+.col.quarter {
+  width: 25%;
+}
+
+.col.third {
+  width: 33.3333%;
+}
+
+.col.thirds {
+  width: 66.6666%;
 }
 
 .tags {
@@ -130,15 +170,20 @@ b {
 }
 
 .drawer {
-  padding: 1em;
+  padding: 1.5em;
   border: .55px var(--black-dark-alt) solid;
   background-color: var(--black-alt);
   border-radius: 12px;
-  font-family: ui-monospace, monospace, sans-serif;
   font-size: 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Amiko", sans-serif;
+}
+
+.drawer.outlined {
+  border: 2px var(--black-dark-alt) dashed;
+  /*background: transparent;*/
 }
 
 .drawer.divided, .drawer.has-cover-image {
