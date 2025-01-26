@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         { name: 'og:image', content: 'https://github.com/camarm-dev/www.camarm.dev/raw/master/.github/header.png' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/icon.png' },
         { rel: 'preload', type: 'image/x-icon', href: '@/assets/images/profil-armand.png' },
         { rel: 'preload', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js' },
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' }
