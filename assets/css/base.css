@@ -1,21 +1,20 @@
 @import "assets/css/navbar.css";
 @import "assets/css/landing.css";
 @import "assets/css/blog.css";
-@import "assets/css/work.css";
 @import "assets/css/contact.css";
 @import "assets/css/intro-animations.css";
 /*@import "assets/fonts/Amiko/Amiko.css";*/
 
 :root {
-  --blue: #6066FF;
-  --blue-alt: #90AFFF;
+  --blue: #425BDA;
+  --blue-alt: #8D9ADC;
   --blue-outline: #787dff;
   --gradient-blue: linear-gradient(var(--blue-alt), var(--blue));
-  --pink: #A660FF;
-  --pink-alt: #C190FF;
+  --pink: #C655B4;
+  --pink-alt: #F6A4E9;
   --gradient-pink: linear-gradient(var(--pink-alt), var(--pink));
-  --purple: #8263FF;
-  --purple-alt: #AAA0FF;
+  --purple: #753F9E;
+  --purple-alt: #CF93FC;
   --gradient-purple: linear-gradient(var(--purple-alt), var(--purple));
   --black: #111014;
   --black-50: rgba(17, 16, 20, 0.5);
@@ -60,6 +59,18 @@ body.light .contact button {
 
 body.light .white-path {
   fill: var(--white-alt-lighter) !important;
+}
+
+.grid {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+  width: 100%;
+}
+
+.grid.gap {
+  gap: .5em;
 }
 
 .light {
@@ -109,7 +120,7 @@ b {
 
 .image img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 12px;
   border: .55px var(--black-dark-alt) solid;
 }
 
@@ -179,6 +190,33 @@ figcaption {
   flex-direction: column;
   justify-content: space-between;
   font-family: "Amiko", sans-serif;
+}
+
+.drawer a.open, .techno a.open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white) !important;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--black-alt);
+  border: .55px var(--black-dark-alt) solid;
+  position: absolute;
+  transform: translate(700%, 10%);
+}
+
+.drawer.media:hover {
+  transition: .3s ease-in-out;
+  transform: translateY(-5%);
+}
+
+.drawer.media.outlined {
+  filter: grayscale(100%);
+}
+
+.drawer.media.outlined:hover {
+  filter: grayscale(0);
 }
 
 .drawer.outlined {
@@ -276,6 +314,35 @@ figcaption {
   width: 1.5em;
   height: 1.5em;
 }
+
+.drawer[draggable] {
+  cursor: grab;
+  touch-action: none;
+}
+
+.drawer.media[draggable] img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
+.drawer.dragging {
+  cursor: grabbing;
+  color: transparent !important;
+  border: 2px var(--black-dark-alt) dashed !important;
+}
+
+.drawer.dragging h2, .drawer.dragging p, .drawer.dragging img {
+  color: transparent !important;
+  content: '';
+  background-color: var(--black-alt);
+  visibility: hidden;
+}
+
 
 .socials {
   margin-top: 1em;
