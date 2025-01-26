@@ -7,7 +7,7 @@
           alt="Armand / camarm"
         >
       </div>
-      <h1>Hey <span class="hand"><span class="waving">👋</span></span>,</h1>
+      <h1>Hi <span class="hand"><span class="waving">👋</span></span>,</h1>
       <h1>
         I'm
         <span class="name">
