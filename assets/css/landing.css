@@ -212,6 +212,25 @@ svg.purple .color {
   stroke: var(--purple);
 }
 
+.xp {
+  margin-bottom: .5em;
+}
+
+.xp:hover .head {
+  transform: translateY(-10%);
+}
+
+.xp .head {
+  color: var(--white) !important;
+  font-weight: bold;
+  transition: .5s ease-in-out;
+}
+
+.xp .head .number {
+  font-size: 1.5em;
+  display: inline-block;
+}
+
 .about .link {
   text-align: center;
   position: relative;
@@ -232,7 +251,11 @@ svg.purple .color {
   margin: 10em auto auto;
 }
 
-.about .content h2 + p {
+.about .content {
+  height: 100%;
+}
+
+.about .content p {
   color: var(--grey);
   margin-top: 0;
   font-size: 1.1em;
@@ -254,7 +277,7 @@ i, .hand .waving {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: .5em;
+  gap: .8em;
   margin: 0 0 .2em;
 }
 
@@ -262,7 +285,8 @@ i, .hand .waving {
   color: var(--grey) !important;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: .9em;
+  font-size: .9em !important;
+  margin: .1em 0;
   min-width: max-content;
   font-family: "Noto Sans", sans-serif;
 }
@@ -277,7 +301,8 @@ i, .hand .waving {
 
 .heading {
   font-size: 3em;
-  margin: 0 0 1em;
+  line-height: 1;
+  margin: 0.4em 0 .5em;
 }
 
 .heading .blue {
@@ -290,6 +315,45 @@ i, .hand .waving {
 
 .heading .purple {
   color: var(--purple)
+}
+
+.techno-jail {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.techno {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: grab;
+}
+
+.techno, .techno img {
+  width: 40px;
+  height: 40px;
+}
+
+.techno img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
+.techno.moving {
+  cursor: grabbing;
+  z-index: 10000;
+}
+
+.techno a.open {
+  width: 20px !important;
+  height: 20px !important;
+  font-size: .5em !important;
+  transform: translate(30px, -5px) !important;
 }
 
 @media (max-width: 1024px) {
