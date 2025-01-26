@@ -61,7 +61,7 @@
 import IncorporationLogo from '~/components/IncorporationLogo.vue'
 
 export default defineComponent({
-  name: 'AcknowledgementsSection',
+  name: 'FooterSection',
   components: { IncorporationLogo }
 })
 </script>
