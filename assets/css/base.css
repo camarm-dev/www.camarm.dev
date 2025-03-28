@@ -142,6 +142,7 @@ figcaption {
   gap: 1em;
   width: 100%;
   flex: none;
+  margin-bottom: 10em;
 }
 
 .col.half {
@@ -382,8 +383,8 @@ body.light .socials a.gh {
   position: fixed;
   right: 2em;
   bottom: 2em;
-  height: 3.5em;
-  width: 3.5em;
+  height: 4em;
+  width: 4em;
   border: .55px solid var(--black-dark-alt);
   background-color: var(--black-alt);
   border-radius: 50%;

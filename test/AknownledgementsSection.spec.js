@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import AcknowledgementsSection from '@/components/AcknowledgementsSection.vue'
+import AcknowledgementsSection from '~/components/FooterSection.vue'
 
 describe('AcknowledgementsSection section', () => {
   const page = mount(AcknowledgementsSection)

@@ -235,43 +235,6 @@ import LinuxIcon from '@/assets/icons/linux.png'
       </div>
     </div>
   </section>
-  <section>
-
-      <div class="content drawer">
-        <h2 class="title">
-          Skills 💾
-        </h2>
-        <p>
-          <b>Languages</b><br>
-          <span class="tags">
-            <span>Typescript</span>
-            <span>Python</span>
-            <span>Ruby</span>
-          </span><br>
-          <b>Frameworks</b><br>
-          <span class="tags">
-            <span>Vue</span>
-            <span>Ionic</span>
-            <span>Flask</span>
-            <span>FastApi</span>
-          </span><br>
-          <b>Databases</b><br>
-          <span class="tags">
-            <span>MongoDB</span>
-            <span>CouchDB</span>
-            <span>Sqlite</span>
-          </span><br>
-          <b>OS</b><br>
-          <span class="tags">
-            <span>Proxmox</span>
-            <span>Linux</span>
-          </span><br>
-          You can check <NuxtLink to="/work">
-            my projects
-          </NuxtLink> to see me in action.
-        </p>
-      </div>
-  </section>
   <section class="about">
     <div class="drawer" style="width: 100%; margin-top: 1em; margin-bottom: 1em;">
       <h2 class="title">
